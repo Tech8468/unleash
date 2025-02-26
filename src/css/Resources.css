@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+  }
+
+  .resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    /* background-color: aqua; */
+    position: relative;
+    /* top: -10px; */
+    /* gap: 10px; */
+  }
+
+  .resources .section0{
+    width: 70%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: #a81590; */
+    position: relative;
+    top: 30px;
+    /* bottom: -40px; */
+    /* left: -360px; */
+  }
+
+  .resources .section0 h1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    /* background-color: #581878; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-weight: bold; */
+  }
+
+  .resources .section1 {
+    display: flex;
+
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 70vh;
+    border-bottom: 1px solid #a81590;
+    /* position: relative; */
+    /* background-color: bisque; */
+    /* top: -10px; */
+    gap: 10px;
+  }
+
+  .resources .section1 .col1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #9831a9; */
+    position: relative;
+    gap: 20px;
+    padding: 10px;
+    /* top: 80px; */
+    /* bottom: -40px; */
+    /* left: -360px; */
+  }
+
+  .resources .section1 .col1 .grid1{
+    width: 30%;
+  }
+
+
+  .resources .section1 .col1 .grid1 p{
+    font-size: 15px;
+    color: rgb(218, 209, 209);
+    text-align: center;
+    background-color: #a81590;
+    position: absolute;
+    top: 10%;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+  }
+
+  .resources .section1 .col1 .grid1 button{
+    padding: 10px;
+    background-color: #a81590;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+  }
+  
+  .resources .section1 .col1 .grid1 button:hover{
+    background-color: #997393;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
+
+
+  .resources .section1 .col1 .grid2{
+    width: 30%;
+    height: auto;
+
+  }
+
+  .resources .section1 .col1 .grid2 p{
+    font-size: 15px;
+    color: rgb(218, 209, 209);
+    text-align: center;
+    background-color: #a81590;
+    position: absolute;
+    top: 10%;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+  }
+
+  .resources .section1 .col1 .grid2 button{
+    padding: 10px;
+    background-color: #a81590;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+  }
+
+  .resources .section1 .col1 .grid2 button:hover{
+    background-color: #997393;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+
+  }
+
+  .resources .section1 .col1 .grid3{
+    width: 30%;
+  }
+
+  .resources .section1 .col1 .grid3 p{
+    font-size: 15px;
+    color: rgb(218, 209, 209);
+    text-align: center;
+    background-color: #a81590;
+    position: absolute;
+    top: 10%;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+  }
+
+  .resources .section1 .col1 .grid3 button{
+    padding: 10px;
+    background-color: #a81590;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+  }
+  
+  .resources .section1 .col1 .grid3 button:hover{
+    background-color: #997393;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+
+  }
+
+
+  .resources .section1 .col1 .Img-1{
+    width: 100%;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .resources .section1 .col1 .Img-1:hover{
+    background-color: #997393;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+
+  }

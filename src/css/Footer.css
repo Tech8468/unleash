@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* FOOTER CSS */
+.footer{
+  width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* padding: 10px; */
+    background-color: rgb(233, 174, 220);
+    /* margin-top: 200px; */
+    position: relative;
+    top: 180px;
+    /* border-top-left-radius: 650px;
+    border-top-right-radius: 650px; */
+    /* bottom: 0; */
+}
+
+.footer-board{
+  width: 70%;
+  height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    /* padding: 10px; */
+    /* background-color: aquamarine; */
+}
+
+.footer-board .col1{
+    width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: bisque; */
+    position: relative;
+    top: 10px;
+}
+
+.footer-board .col1 img{
+  width: 100%;
+  height: 15vh;
+  position: relative;
+  /* top: 15px; */
+  /* left: 10px; */
+}
+
+.footer-board .col2{
+  width: 58%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: bisque; */
+  position: relative;
+  top: 20px;
+  /* right: 30px; */
+}
+
+.footer-board .col2 .footer-link{
+  width: 100%;
+  height: 45px;
+  /* background-color: cadetblue; */
+  /* padding: 5px; */
+  border-bottom: 1px solid white;
+}
+
+
+/* .footer-board h1{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+
+} */
+
+.footer-board a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-board ul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style: none;
+    color: white;
+    /* padding: 10px; */
+    gap: 22px;
+    position: relative;
+    /* left: 20px; */
+}
+
+.footer-board ul li{
+    display: block;
+    color: white;
+    position: relative;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+ }
+  .footer-board ul li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .footer-board .col2 .footerSocial{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: left; */
+    position: relative;
+    left: 200px;
+    top: 10px;
+    gap: 20px;
+    padding: 10px;
+  }
+  .footer-board .col2 .footerSocial .whatsApp{
+    color: rgb(10, 168, 63);
+    font-size: 40px;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+    /* font-family: 'Montserrat', sans-serif; */
+
+  }
+
+  .footer .copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 176, 179);
+    /* background-color: rgb(13, 22, 31);
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    top: 50px; */
+  }
+
+  .footer .copyright .copy{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer .copyright p{
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    position: relative;
+    /* left: 100px; */
+  }
+  
+  
+
+  /* MEDIA QUERIES */
+  @media screen and (max-width: 425px){
+    .footer{
+      height: 500px;
+      display: block;
+      /* padding: 5px; */
+       /* flex-direction: column; */
+       gap: 0px;
+       /* background-color: aquamarine; */
+     }
+     .footer-board{
+      height: 400px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        gap: 0px;
+        /* background-color: aquamarine; */
+        padding: 5px;
+      }
+
+    .footer-board h1{
+      font-size: 18px;
+      text-align: left;
+    }
+    .footer-board ul li{
+      /* padding: 5px; */
+      gap: 10px;
+      font-size: 12px;
+    }
+    .footer-care h2{
+      font-size: 15px;
+    }
+    .footer-care p{
+      font-size: 12px;
+    }
+    .copyright{
+      font-size: 10px;
+    }
+  }
