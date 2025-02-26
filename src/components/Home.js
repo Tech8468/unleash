@@ -17,9 +17,9 @@ function Home() {
         <div className="background">
           <div className="coverTxt">
             <h1>Empowering Lives, Transforming Future</h1>
-            <div className="txt1">
+            {/* <div className="txt1">
               <p></p>
-            </div>
+            </div> */}
 
             {/* <Link to="/about">
               <button className="menuBtn">Learn more</button>

@@ -6,12 +6,13 @@
 
   .whyChooseUs{
     width: 100%;
-    height: auto;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #db1c92;
+    /* background-color: #db1c92; */
+    /* border-bottom: 1px solid #a81590; */
   }
 
   .whyChooseUs .section1{
@@ -23,6 +24,7 @@
     justify-content: center;
     background-color: #b3a0e5;
     gap: 20px;
+    border-radius: 10px;
   }
 
   .whyChooseUs .col1 {

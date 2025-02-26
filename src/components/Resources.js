@@ -38,7 +38,7 @@ function Resources() {
 
           {/* </div> */}
         </div>
-        <div className="col2"></div>
+        {/* <div className="col2"></div> */}
       </div>
     </div>
   );

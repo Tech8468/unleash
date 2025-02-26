@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     /* background-color: aqua; */
     position: relative;
     /* top: -10px; */
@@ -21,12 +21,12 @@
     width: 70%;
     height: auto;
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: center;
-    justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     /* background-color: #a81590; */
     position: relative;
-    top: 30px;
+    /* top: 30px; */
     /* bottom: -40px; */
     /* left: -360px; */
   }
@@ -36,14 +36,16 @@
     color: black;
     text-align: center;
     /* background-color: #581878; */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     /* font-weight: bold; */
   }
 
   .resources .section1 {
+    width: 100%;
+    height: auto;
     display: flex;
 
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
@@ -70,7 +72,7 @@
     /* background-color: #9831a9; */
     position: relative;
     gap: 20px;
-    padding: 10px;
+    /* padding: 10px; */
     /* top: 80px; */
     /* bottom: -40px; */
     /* left: -360px; */
@@ -95,6 +97,7 @@
   }
 
   .resources .section1 .col1 .grid1 button{
+    width: 30%;
     padding: 10px;
     background-color: #a81590;
     color: white;
@@ -136,6 +139,7 @@
   }
 
   .resources .section1 .col1 .grid2 button{
+    width: 30%;
     padding: 10px;
     background-color: #a81590;
     color: white;
@@ -174,6 +178,7 @@
   }
 
   .resources .section1 .col1 .grid3 button{
+    width: 30%;
     padding: 10px;
     background-color: #a81590;
     color: white;

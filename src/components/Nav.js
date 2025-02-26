@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "./img/unleash_logo.png";
 
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { FaBars, FaTimes } from "react-icons/fa";
 function Nav() {
   const menuRef = useRef();
 
@@ -41,37 +41,37 @@ function Nav() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/about" className="nav-link">
+          <Link to="/" className="nav-link">
             About Us
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/services" className="nav-link">
+          <Link to="/" className="nav-link">
             Services
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/therapist" className="nav-link">
+          <Link to="/" className="nav-link">
             Why Choose Us?
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/testimonies" className="nav-link">
+          <Link to="/" className="nav-link">
             Resources
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/contact" className="nav-link">
+          <Link to="/" className="nav-link">
             Contact Us
           </Link>
         </li>
-        <button className="nav-btn nav-close-btn" onClick={handleToggleMenu}>
+        {/* <button className="nav-btn nav-close-btn" onClick={handleToggleMenu}>
           <FaTimes />
-        </button>
+        </button> */}
       </ul>
-      <button className="nav-btn" onClick={handleToggleMenu}>
+      {/* <button className="nav-btn" onClick={handleToggleMenu}>
         <FaBars />
-      </button>
+      </button> */}
       {/* <div className="hamburger-menu" onClick={handleToggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
