@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "./img/unleash_logo.png";
 
 import { useRef } from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 function Nav() {
   const menuRef = useRef();
 
@@ -65,13 +65,13 @@ function Nav() {
             Contact Us
           </Link>
         </li>
-        {/* <button className="nav-btn nav-close-btn" onClick={handleToggleMenu}>
+        <button className="nav-btn nav-close-btn" onClick={handleToggleMenu}>
           <FaTimes />
-        </button> */}
+        </button>
       </ul>
-      {/* <button className="nav-btn" onClick={handleToggleMenu}>
+      <button className="nav-btn" onClick={handleToggleMenu}>
         <FaBars />
-      </button> */}
+      </button>
       {/* <div className="hamburger-menu" onClick={handleToggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>

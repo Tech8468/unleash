@@ -1,105 +1,195 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: none;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
 
-  .aboutUs{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    /* background-color: #a81590; */
-  
-  }
-  
+.aboutUs {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* background-color: #a81590; */
+}
 
 .aboutUs .section1 {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  left: 10px;
+}
+
+
+
+.aboutUs .section1 .col1 {
+  width: 40%;
+  height: 50vh;
+  background-image: url("../components/img/Rectangle-35.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 0px;
+}
+
+.aboutUs .section1 .col1 .Img-1 {
+  width: 75%;
+  height: 300px;
+  position: relative;
+  top: 0px;
+  border-top-left-radius: 10px;
+}
+
+.aboutUs .section1 .col1 .Img-2 {
+  width: 70%;
+  height: 250px;
+  position: absolute;
+  top: 140px;
+  right: -2px;
+  border-top-left-radius: 10px;
+}
+
+/* .aboutUs .section1 .col1 .Img-3 {
+  width: 450px;
+  height: 200px;
+  margin-top: -550px;
+  color: #a81590;
+} */
+
+
+.aboutUs .section1 .col2 {
+  width: 45%;
+  height: 50vh;
+  /* background-color: #3d4572; */
+  position: relative;
+  /* top: 80px; */
+  left: 0px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUs .section1 .col2 .tab1 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 0px;
+  /* background-color: #6276eb; */
+  display: block;
+  /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 1px solid #a81590;
+  /* border-radius: 10px; */
+}
+
+.aboutUs .section1 .col2 .tab1 h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  position: relative;
+  top: 0px;
+  /* text-align: left; */
+}
+
+.aboutUs .section1 .col2 .tab1 p {
+  color: #949394;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  text-align: left;
+}
+
+.aboutUs .section1 .col2 .tab2 {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  top: 0px;
+  /* background-color: #daa20b; */
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.aboutUs .section1 .col2 .tab2 h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  position: relative;
+  top: 20px;
+}
+
+.aboutUs .section1 .col2 .tab2 p {
+  color: #949394;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  top: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .aboutUs .section1 {
     width: 80%;
     height: 70vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* gap: 10px; */
-    /* position: relative; */
-    /* background-color: #497c7e; */
+    gap: 20px;
     position: relative;
-    /* top: -50px; */
     left: 10px;
-    /* right: 150px; */
   }
-  
+
   .aboutUs .section1 .col1 {
     width: 45%;
-    height: 39.5vh;
-    position: relative;
-    /* top: 80px; */
-    left: 0px;
-    /* right: 50px; */
-    /* background-color: gray; */
-    /* display: flex;
+    height: 400px;
+    background-image: url("../components/img/Rectangle-35.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
   }
-  
-  .aboutUs .section1 .col1 .Img-1{
-    width: 60%;
-    height: 250px;
-    position: relative;
-    top: 0px;
-    border-top-left-radius: 10px;
 
-  }
-  
-  .aboutUs .section1 .col1 .Img-2{
-    width: 50%;
-    height: 200px;
-    position: absolute;
-    top: 110px;
-    right: 20px;
+  .aboutUs .section1 .col1 .Img-1 {
+    width: 80%;
+    height: 300px;
+    position: relative;
+    top: -50px;
+    left: -50px;
     border-top-left-radius: 10px;
   }
-  
-  .aboutUs .section1 .col1 .Img-3{
-    width: 450px;
-    height: 200px;
-    /* position: absolute; */
-    margin-top: -550px;
-    color: #a81590;
-    /* margin-right: -150px; */
-    /* position: relative; */
+
+  .aboutUs .section1 .col1 .Img-2 {
+    width: 70%;
+    height: 260px;
+    position: absolute;
+    top: 140px;
+    left: 160px;
+    border-top-left-radius: 10px;
   }
-  
-  .aboutUs .section1 .col1 .Img-4{
-    width: 20px;
-    height: 150px;
-    position:absolute;
-    top: 0px;
-    right: 200px;
-    /* left: 50px; */
-  }
-  
-  .aboutUs .section1 .col1 .Img-5{
-    width: 50px;
-    height: 20px;
-    position: relative;
-    right: 420px;
-    bottom: 10px;
-  }
-  
-  
+
   .aboutUs .section1 .col2 {
     width: 40%;
-    height: 500px;
-    /* background-color: #6276eb; */
+    height: 400px;
     position: relative;
-    /* top: 80px; */
     left: 0px;
     gap: 10px;
     display: flex;
@@ -107,22 +197,16 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .aboutUs .section1 .col2 .tab1 {
     width: 100%;
-    height: auto;
+    height: 230px;
     position: relative;
-    top: 0px;
-    /* background-color: #6276eb; */
     display: block;
-    /* flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    gap: 10px;
-    padding: 10px;
-    /* border-radius: 10px; */
+    padding: 20px;
+    border-bottom: 1px solid #a81590;
   }
-  
+
   .aboutUs .section1 .col2 .tab1 h1 {
     color: black;
     font-size: 30px;
@@ -130,70 +214,265 @@
     text-align: left;
     position: relative;
     top: 0px;
-    /* text-align: left; */
   }
-  
+
   .aboutUs .section1 .col2 .tab1 p {
     color: #949394;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     position: relative;
-    top: 0px;
+    top: 10px;
     text-align: left;
   }
-  
+
   .aboutUs .section1 .col2 .tab2 {
     width: 100%;
-    height: auto;
+    height: 150px;
     position: relative;
     top: 0px;
-    /* background-color: #daa20b; */
     display: block;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
   }
 
-  .aboutUs .section1 .col2 .tab2 .txtHd h1{
+  .aboutUs .section1 .col2 .tab2 p {
+    color: #949394;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .aboutUs .section1 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: 10px;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px){
+  .aboutUs .section1 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    left: 10px;
+  }
+
+  .aboutUs .section1 .col1 {
+    width: 45%;
+    height: 50vh;
+    background-image: url("../components/img/Rectangle-35.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutUs .section1 .col1 .Img-1 {
+    width: 80%;
+    height: 220px;
+    position: relative;
+    top: -45px;
+    left: -35px;
+    border-top-left-radius: 10px;
+  }
+
+  .aboutUs .section1 .col1 .Img-2 {
+    width: 70%;
+    height: 200px;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+    border-top-left-radius: 10px;
+  }
+
+  .aboutUs .section1 .col2 {
+    width: 45%;
+    height: 50vh;
+    position: relative;
+    left: 0px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutUs .section1 .col2 .tab1 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0px;
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #a81590;
+  }
+
+  .aboutUs .section1 .col2 .tab1 h1 {
     color: black;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 0px;
+  }
+
+  .aboutUs .section1 .col2 .tab1 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    text-align: left;
+  }
+
+  .aboutUs .section1 .col2 .tab2 {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0px;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .aboutUs .section1 .col2 .tab2 h1{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 0px;
+
+  }
+
+
+  .aboutUs .section1 .col2 .tab2 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 425px){
+
+  .aboutUs {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    /* background-color: #a81590; */
+  }
+  
+  .aboutUs .section1 .col1 {
+    display: none;
+  }
+
+  .aboutUs .section1 .col2 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top: 0px;
+    right: 50px;; */
+  }
+
+  .aboutUs .section1 .col2 .tab1{
+    width: 90%;
+    height: 50vh;
+    position: relative;
+    left: -10px;
+  }
+
+
+  .aboutUs .section1 .col2 .tab1 h1 {
+    color: black;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     position: relative;
     top: 0px;
     /* text-align: left; */
   }
+  
+  .aboutUs .section1 .col2 .tab1 p {
+    color: #949394;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    /* position: relative;
+    top: 10px;
+    text-align: left; */
+  }
+  
 
-  .aboutUs .section1 .col2 .tab2 .txtHd1 {
+  .aboutUs .section1 .col2 .tab2 {
     width: 100%;
-    height: auto;
+    position: relative;
+    left: -10px;
+  }
+
+  
+  .aboutUs .section1 .col2 .tab2 h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 10px;
+  }
+  
+  .aboutUs .section1 .col2 .tab2 p {
+    color: #949394;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  
+ 
+}
+
+@media only screen and (max-width: 375px){
+  .aboutUs .section1 .col2 .tab1 {
+    width: 100%;
+    height: 330px;
     position: relative;
     top: 0px;
-    gap: 10px;
-    /* background-color: #daa20b; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* padding: 10px; */
+    display: block;
+    padding: 20px;
+    border-bottom: 1px solid #a81590;
   }
-  
-  .aboutUs .section1 .col2 .tab2 h1{
-    color: black;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: left;
-    position: relative;
-    top: 10px;
-  }
-  
-  .aboutUs .section1 .col2 .tab2 p{
-    color: #949394;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-    position: relative;
-    top: 10px;
 
-  }
-  
+}
