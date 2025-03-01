@@ -76,6 +76,7 @@
     background: transparent;
     border: none;
     outline: none;
+    /* color: wheat; */
     color: #a81590;
     display: none;
     /* visibility: hidden;
@@ -84,11 +85,13 @@
 }
 
 
-.nav-btn-close{
+
+.nav-close-btn{
     /* visibility: hidden;
     opacity: 0; */
     display: none;
     cursor: pointer;
+    /* color: white; */
 }
 
 
@@ -163,6 +166,7 @@
         display: inline;
         visibility: visible;
         opacity: 1;
+        /* color: white; */
     }
 
     .nav-menu {
@@ -170,15 +174,16 @@
         left: 0;
         top: 0;
         gap: 1.0rem;
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: rgb(70, 63, 63);
+        color: white;
         width: 100%;
         height: 100%;
-        transition: 1s;
-        transform: translateY(-150vh);
+        transition: 0.4s;
+        /* transform: translateX(-150vh); */
     }
     .show-menu{
         transform: none;
@@ -188,8 +193,8 @@
 
     .nav-close-btn{
         position: absolute;
-        top: 2rem;
-        /* right: 2rem; */
+        top: 1rem;
+        right: 3rem;
     }
 
     .nav-close-btn:hover{
@@ -219,50 +224,66 @@
 
 
     .nav-menu {
-        /* position: fixed; */
+        position: fixed;
         left: 0;
         top: 0;
         gap: 0.5rem;
-        display: flex;
         flex-direction: column;
         align-items: center;
+        outline: none;
         justify-content: center;
-        background-color: rgb(70, 63, 63);
+        background-color: rgb(136, 7, 112);
         width: 100%;
-        height: 37%;
+        height: 40%;
         transition: 1s;
-        transform: translateX(-200vh);
+        /* transform: translateX(-200vh); */
 
         
     }
 
     .navbar li{
-        border-bottom: 1px solid white;
-        padding: 9px;
-        font-size: 10px;
-        /* gap: 0.5rem; */
+        color: white;
+        position: relative;
+        top: 10px;
+        border-bottom: none;
+        font-weight: 700;
+
+
+
 
     }
+
+    .navbar li a{
+        font-size: 10px;
+        color: white;
+        gap: 0.5rem;
+    }
+
+
+
 
     .show-menu{
         transform: none;
-        transform: translateY(0);
+        /* transform: translateY(0); */
         
     }
 
-    .nav-close-btn{
+    .navbar .nav-close-btn{
         position: absolute;
         top: 1rem;
         right: 2rem;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
     }
     .nav-close-btn:hover{
         background: transparent;
         outline: none;
+        color: rgb(238, 108, 199);
     }
     .nav-item a{
         font-size: 0.95rem;
     }
-
 }
 
 
@@ -277,17 +298,16 @@
 
 
     .nav-menu {
-        /* position: fixed; */
+        position: fixed;
         left: 0;
         top: 0;
-        gap: 0.5rem;
-        display: flex;
+        gap: 1rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: rgb(70, 63, 63);
+        background-color: rgb(136, 7, 112);
         width: 100%;
-        height: 37%;
+        height: 43%;
         transition: 1s;
         transform: translateX(-200vh);
 
@@ -295,27 +315,46 @@
     }
 
     .navbar li{
-        border-bottom: 1px solid white;
-        padding: 9px;
-        font-size: 10px;
-        /* gap: 0.5rem; */
+        color: white;
+        position: relative;
+        top: 26px;
+        border-bottom: none;
+        font-weight: 700;
+
+
+
 
     }
+
+    .navbar li a{
+        font-size: 10px;
+        color: white;
+        gap: 0.5rem;
+    }
+
+
+
 
     .show-menu{
         transform: none;
-        transform: translateY(0);
+        /* transform: translateY(0); */
         
     }
 
-    .nav-close-btn{
+    .navbar .nav-close-btn{
         position: absolute;
         top: 1rem;
         right: 2rem;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        outline: none;
+        border: none;
     }
     .nav-close-btn:hover{
         background: transparent;
         outline: none;
+        color: rgb(238, 108, 199);
     }
     .nav-item a{
         font-size: 0.95rem;
