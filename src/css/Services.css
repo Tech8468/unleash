@@ -1,132 +1,132 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: none;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
 
-  .services{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* gap: 20px; */
-    /* justify-content: sp; */
-    /* padding: 20px; */
-    background-color: #f5f5f5;
-    /* border-radius: 10px; */
-  }
+.services {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  /* justify-content: sp; */
+  /* padding: 20px; */
+  background-color: #f5f5f5;
+  /* border-radius: 10px; */
+}
 
-  .services .section0{
-    width: 20%;
-    height: auto;
-    /* background-color: #a81590; */
-    position: relative;
-    top: 80px;
-    /* bottom: -40px; */
-    left: -360px;
-  }
+.services .section0 {
+  width: 20%;
+  height: auto;
+  /* background-color: #a81590; */
+  position: relative;
+  top: 80px;
+  /* bottom: -40px; */
+  left: -360px;
+}
 
-  .services .section0 h1{
-    color: black;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: left;
-  }
+.services .section0 h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
 
-  .services .section1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 70vh;
-    position: relative;
-    top: -10px;
-    gap: 10px;
-  }
+.services .section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 70vh;
+  position: relative;
+  top: -10px;
+  gap: 10px;
+}
 
-  .services .section1 .col1{
-    width: 45%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 11px;
-    border-radius: 10px;
-    border: 1px solid #a81590;
-    background-color: transparent;
-    /* background-color: aqua; */
-    /* justify-content: space-between; */
-    /* position: relative; */
-    gap: 16px;
-  }
-  .services .section1 .col1 .txt1 h1{
-    font-size: 20px;
-    color: #333;
-    font-weight: 700;
-  }
+.services .section1 .col1 {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px solid #a81590;
+  background-color: transparent;
+  /* background-color: aqua; */
+  /* justify-content: space-between; */
+  /* position: relative; */
+  gap: 16px;
+}
+.services .section1 .col1 .txt1 h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
 
-  .services .section1 .col1 .txt1 p{
-    color: #949394;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-  }
+.services .section1 .col1 .txt1 p {
+  color: #949394;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
 
-  .services .section1 .col1 .txt2 h1{
-    font-size: 20px;
-    color: #333;
-    font-weight: 700;
-  }
+.services .section1 .col1 .txt2 h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
 
-  .services .section1 .col1 .txt2 p{
-    color: #949394;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-  }
+.services .section1 .col1 .txt2 p {
+  color: #949394;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
 
-  .services .section1 .col1 .txt3 h1{
-    font-size: 20px;
-    color: #333;
-    font-weight: 700;
-  }
+.services .section1 .col1 .txt3 h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
 
-  .services .section1 .col1 .txt3 p{
-    color: #949394;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-  }
+.services .section1 .col1 .txt3 p {
+  color: #949394;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
 
-  .services .section1 .col1 .txt4 h1{
-    font-size: 20px;
-    color: #333;
-    font-weight: 700;
-  }
+.services .section1 .col1 .txt4 h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
 
-  .services .section1 .col1 .txt4 p{
-    color: #949394;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-  }
+.services .section1 .col1 .txt4 p {
+  color: #949394;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
 
-  .services .section1 .col1 .txt5 h1{
-    font-size: 20px;
-    color: #333;
-    font-weight: 700;
-  }
+.services .section1 .col1 .txt5 h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
 
-  .services .section1 .col1 .txt5 p{
-    color: #949394;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: left;
-  }
+.services .section1 .col1 .txt5 p {
+  color: #949394;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
 
-  /* .services .section1 .col2{
+/* .services .section1 .col2{
     width: 45%;
     height: auto;
     display: flex;
@@ -138,467 +138,442 @@
     gap: 16px;
   } */
 
-  .services .section1 .col2 img{
+.services .section1 .col2 img {
+  width: 100%;
+  height: 39.5vh;
+  object-fit: cover;
+  border-radius: 10px;
+  /* border: 1px solid #a81590; */
+  background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 1440px) {
+  .services .section0 {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 40px;
+    left: -310px;
+  }
+
+  .services .section0 h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .services .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70vh;
+    position: relative;
+    top: -10px;
+    gap: 10px;
+  }
+
+  .services .section1 .col1 {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    border-radius: 10px;
+    border: 1px solid #a81590;
+    background-color: transparent;
+    gap: 16px;
+  }
+  .services .section1 .col1 .txt1 h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .services .section1 .col1 .txt1 p {
+    color: #949394;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt2 h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .services .section1 .col1 .txt2 p {
+    color: #949394;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt3 h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .services .section1 .col1 .txt3 p {
+    color: #949394;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt4 h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .services .section1 .col1 .txt4 p {
+    color: #949394;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt5 h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+
+  .services .section1 .col1 .txt5 p {
+    color: #949394;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .services .section1 .col2 {
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .services .section1 .col2 img {
     width: 100%;
-    height: 39.5vh;
+    height: 50vh;
     object-fit: cover;
     border-radius: 10px;
-    /* border: 1px solid #a81590; */
     background-color: #f5f5f5;
   }
+}
 
+@media only screen and (max-width: 1024px) {
+  .services .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: -10px;
+    gap: 10px;
+  }
+}
 
-
-
-
-
-
-
-  @media only screen and (max-width: 1440px){
-    .services .section0{
-      width: 20%;
-      height: auto;
-      position: relative;
-      top: 40px;
-      left: -310px;
-    }
-  
-    .services .section0 h1{
-      color: black;
-      font-size: 30px;
-      font-weight: 700;
-      text-align: left;
-    }
-  
-    .services .section1{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 80%;
-      height: 70vh;
-      position: relative;
-      top: -10px;
-      gap: 10px;
-    }
-  
-    .services .section1 .col1{
-      width: 40%;
-      height: 50vh;
-      display: flex;
-      flex-direction: column;
-      padding: 11px;
-      border-radius: 10px;
-      border: 1px solid #a81590;
-      background-color: transparent;
-      gap: 16px;
-    }
-    .services .section1 .col1 .txt1 h1{
-      font-size: 20px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt1 p{
-      color: #949394;
-      font-size: 15px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt2 h1{
-      font-size: 20px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt2 p{
-      color: #949394;
-      font-size: 15px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt3 h1{
-      font-size: 20px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt3 p{
-      color: #949394;
-      font-size: 15px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt4 h1{
-      font-size: 20px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt4 p{
-      color: #949394;
-      font-size: 15px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt5 h1{
-      font-size: 20px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt5 p{
-      color: #949394;
-      font-size: 15px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col2{
-      width: 40%;
-      height: 50vh;
-      display: flex;
-      border-radius: 10px;
-    }
-  
-    .services .section1 .col2 img{
-      width: 100%;
-      height: 50vh;
-      object-fit: cover;
-      border-radius: 10px;
-      background-color: #f5f5f5;
-    }
-  
+@media only screen and (max-width: 768px) {
+  .services .section0 {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: -260px;
   }
 
-
-
-  @media only screen and (max-width: 1024px){
-    .services .section1{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 70vh;
-      position: relative;
-      top: -10px;
-      gap: 10px;
-    }
-  
+  .services .section0 h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
   }
 
-
-  @media only screen and (max-width: 768px){
-    .services .section0{
-      width: 20%;
-      height: auto;
-      position: relative;
-      top: 50px;
-      left: -260px;
-    }
-  
-    .services .section0 h1{
-      color: black;
-      font-size: 20px;
-      font-weight: 700;
-      text-align: left;
-    }
-
-    .services .section1{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 70vh;
-      position: relative;
-      top: -10px;
-      gap: 20px;
-    }
-
-    .services .section1 .col1{
-      width: 45%;
-      height: 45vh;
-      display: flex;
-      flex-direction: column;
-      padding: 11px;
-      border-radius: 10px;
-      border: 1px solid #a81590;
-      background-color: transparent;
-      background-color: aqua;
-      gap: 15px;
-    }
-
-    .services .section1 .col1 .txt1 h1{
-      font-size: 15px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt1 p{
-      color: #949394;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt2 h1{
-      font-size: 15px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt2 p{
-      color: #949394;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt3 h1{
-      font-size: 15px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt3 p{
-      color: #949394;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt4 h1{
-      font-size: 15px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt4 p{
-      color: #949394;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt5 h1{
-      font-size: 15px;
-      color: #333;
-      font-weight: 700;
-    }
-  
-    .services .section1 .col1 .txt5 p{
-      color: #949394;
-      font-size: 12px;
-      font-weight: 400;
-      text-align: left;
-    }
-  
-    .services .section1 .col2{
-      width: 40%;
-      height: 45vh;
-      display: flex;
-      border-radius: 10px;
-    }
-  
-    .services .section1 .col2 img{
-      width: 100%;
-      height: 45vh;
-      object-fit: cover;
-      border-radius: 10px;
-      background-color: #f5f5f5;
-    }
-
+  .services .section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: -10px;
+    gap: 20px;
   }
 
-  @media only screen and (max-width: 425px){
+  .services .section1 .col1 {
+    width: 45%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    border-radius: 10px;
+    border: 1px solid #a81590;
+    background-color: transparent;
+    background-color: aqua;
+    gap: 15px;
+  }
 
-    .services{
-      width: 100%;
-      height: 70vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-image: url("../components/img/couples-3.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 10px;
-      border-radius: 0px;
+  .services .section1 .col1 .txt1 h1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+  }
 
+  .services .section1 .col1 .txt1 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
 
-    }
+  .services .section1 .col1 .txt2 h1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+  }
 
-    .services:before{
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 70vh;
-      /* position: relative; */
-      background: rgba(87, 45, 95, 0.884);
-      z-index: -0;
-    }
-  
-  
-    .services .section0{
-      width: 25%;
-      height: auto;
-      position: relative;
-      top: 50px;
-      left: -150px;
-    }
-    .services .section0 h1{
-      font-size: 20px;
-      color: whitesmoke;
-      font-weight: 500;
-      text-align: left;
-      position: relative;
-      /* top: -60px; */
-    }
+  .services .section1 .col1 .txt2 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
 
-    .services .section1{
-      display: block;
-      width: 100%;
-      height: 70vh;
-      position: relative;
-      top: 60px;
-      gap: 50px;
-      
+  .services .section1 .col1 .txt3 h1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+  }
 
-    }
+  .services .section1 .col1 .txt3 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
 
-    .services .section1 .col1{
-      width: 100%;
-      height: 45vh;
-      display: flex;
-      flex-direction: column;
-      padding: 11px;
-      border-radius: 0px;
-      /* border: 1px solid #a81590; */
-      background-color: transparent;
-      /* background-color: aqua; */
-      gap: 15px;
-    }
+  .services .section1 .col1 .txt4 h1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+  }
 
-    .services .section1 .col1 .txt1 h1{
-      font-size: 13px;
-      color: whitesmoke;
-      font-weight: 500;
-    }
-  
-    .services .section1 .col1 .txt1 p{
-      color: wheat;
-      font-size: 12px;
-      font-weight: 300;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt2 h1{
-      font-size: 13px;
-      color: whitesmoke;
-      font-weight: 500;
-    }
-  
-    .services .section1 .col1 .txt2 p{
-      color: wheat;
-      font-size: 12px;
-      font-weight: 300;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt3 h1{
-      font-size: 13px;
-      color: whitesmoke;
-      font-weight: 500;
-    }
-  
-    .services .section1 .col1 .txt3 p{
-      color: wheat;
-      font-size: 12px;
-      font-weight: 300;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt4 h1{
-      font-size: 13px;
-      color:whitesmoke;
-      font-weight: 500;
-    }
-  
-    .services .section1 .col1 .txt4 p{
-      color: wheat;
-      font-size: 12px;
-      font-weight: 300;
-      text-align: left;
-    }
-  
-    .services .section1 .col1 .txt5 h1{
-      font-size: 13px;
-      color: whitesmoke;
-      font-weight: 500;
-    }
-  
-    .services .section1 .col1 .txt5 p{
-      color: wheat;
-      font-size: 12px;
-      font-weight: 300;
-      text-align: left;
-    }
-  
+  .services .section1 .col1 .txt4 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
 
+  .services .section1 .col1 .txt5 h1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+  }
 
-    .services .section1 .col2{
-      /* width: 100%;
+  .services .section1 .col1 .txt5 p {
+    color: #949394;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .services .section1 .col2 {
+    width: 40%;
+    height: 45vh;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .services .section1 .col2 img {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .services {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../components/img/couples-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 0px;
+  }
+
+  .services:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    /* position: relative; */
+    background: rgba(87, 45, 95, 0.884);
+  }
+
+  .services .section0 {
+    width: 25%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: -150px;
+  }
+  .services .section0 h1 {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    /* top: -60px; */
+  }
+
+  .services .section1 {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 60px;
+    gap: 50px;
+  }
+
+  .services .section1 .col1 {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    border-radius: 0px;
+    /* border: 1px solid #a81590; */
+    background-color: transparent;
+    /* background-color: aqua; */
+    gap: 15px;
+  }
+
+  .services .section1 .col1 .txt1 h1 {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt1 p {
+    color: wheat;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt2 h1 {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt2 p {
+    color: wheat;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt3 h1 {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt3 p {
+    color: wheat;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt4 h1 {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt4 p {
+    color: wheat;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt5 h1 {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt5 p {
+    color: wheat;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col2 {
+    /* width: 100%;
       height: 45vh;
       border-radius: 10px;
       position: relative;
       top: 20px; */
-      border-radius: 0px;
+    border-radius: 0px;
 
-      display: none;
-    }
-  
+    display: none;
   }
+}
 
-
-  @media only screen and (max-width: 375px){
-    .services .section0{
-      width: 25%;
-      height: auto;
-      position: relative;
-      top: 50px;
-      left: -120px;
-    }
-    .services .section0 h1{
-      font-size: 20px;
-      color: whitesmoke;
-      font-weight: 500;
-      text-align: left;
-      position: relative;
-      /* top: -60px; */
-    }
-
+@media only screen and (max-width: 375px) {
+  .services .section0 {
+    width: 25%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: -120px;
   }
-
-  @media only screen and (max-width: 320px){
-    .services .section0{
-      width: 25%;
-      height: auto;
-      position: relative;
-      top: 50px;
-      left: -100px;
-    }
-    .services .section0 h1{
-      font-size: 20px;
-      color: whitesmoke;
-      font-weight: 500;
-      text-align: left;
-      position: relative;
-      /* top: -60px; */
-    }
+  .services .section0 h1 {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    /* top: -60px; */
   }
+}
+
+@media only screen and (max-width: 320px) {
+  .services .section0 {
+    width: 25%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: -100px;
+  }
+  .services .section0 h1 {
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    /* top: -60px; */
+  }
+}
