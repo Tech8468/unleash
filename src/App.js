@@ -7,6 +7,9 @@ import "./css/AboutUs.css";
 import "./css/WhyChooseUs.css";
 import "./css/Resources.css";
 import "./css/Footer.css";
+import "./css/Profile.css";
+import "./css/Blog.css";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 // import AboutPage from "./components/pages/AboutPage";

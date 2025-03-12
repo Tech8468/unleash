@@ -10,9 +10,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #f2f2f2; */
+    background-color: #9933CC;
+    background-size: 300% 300%;
+    background-image: linear-gradient(45deg,#9933CC, #b20000, #9933CC, #d0b6fa);
+    animation: animate 20s ease-in-out infinite;
   }
-
+  
+  @keyframes animate{
+    0%{background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+  
   .contact .registerForm{
     width: 70%;
     height: 70vh;
@@ -24,11 +33,25 @@
     top: 30px; */
     gap: 20px;
     /* padding: 20px; */
-    background-color: #d89f9f;
-    border-radius: 5px;
+    background-color:#9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+
   }
+
+  .contact .registerForm .container {
+    width: 85%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  
+  }
+  
   .contact .registerForm .col1{
-    width: 45%;
+    width: 50%;
     height: 39.5vh;
     /* background-color: #fff; */
     display: flex;
@@ -38,7 +61,7 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    background-color: #f8f9fa;
+    background-color: white;
     gap: 20px;
 
   }
@@ -46,7 +69,7 @@
   .contact .registerForm .col1 .row1{
     width: 100%;
     height: 40px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #9933CC;
 
   }
 
@@ -106,18 +129,18 @@
   }
 
   .contact .registerForm .col2{
-    width: 45%;
+    width: 50%;
     height: 39.5vh;
     /* background-color: #fff; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     border-radius: 10px;
     gap: 20px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    background-color: #f8f9fa;
+    background-color: white;
 
 
   }
@@ -132,73 +155,111 @@
     gap: 10px;
   }
 
-  .contact .registerForm .col2 form .row1, .row2, .row3{
+  .contact .registerForm .col2 form .row1, .row2{
     width: 100%;
     height: 50px;
     display: flex;
+    padding: 0;
     align-items: center;
     justify-content: center;
     gap: 20px;
-    /* border-bottom: 1px solid black; */
   }
 
-  .contact .registerForm .col2 form .row1 .val1, .val2{
+  .contact .registerForm .col2 form .row1 .val1{
+    width: 100%;
+  }
+
+  .contact .registerForm .col2 form .row1 .val2{
+    width: 100%;
+  }
+
+  .contact .registerForm .col2 form .row2 .val1{
+    width: 100%;
+  }
+
+  .contact .registerForm .col2 form .row2 .val2{
+    width: 100%;
+  }
+
+
+
+  /* .contact .registerForm .col2 form .row2{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 0;
-    /* font-size: 10px;
-    font-weight: 300; */
-    /* color: #333; */
-  }
+    gap: 20;
+  } */
 
-  .contact .registerForm .col2 form .row1 .val1 input, .val2 input{
+
+  .contact .registerForm .col2 form .row1 .val1 input{
     width: 100%;
     height: 30px;
     padding: 5px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    font-size: 12px;
-    font-weight: 300;
-    color: #333;
+    border: 1px solid #9933CC;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
 
 
     /* background-color: #f2f2f2; */
   }
 
-  .contact .registerForm .col2 form .row2 .val1, .val2{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 10px;
-    font-weight: 300;
-    color: #333;
-  }
-
-  .contact .registerForm .col2 form .row2 .val1 input, .val2 input{
+  .contact .registerForm .col2 form .row1 .val2 input{
     width: 100%;
     height: 30px;
     padding: 5px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 10px;
-    font-weight: 300;
-    color: #333;
+    border: 1px solid #9933CC;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+  }
+
+  /* .contact .registerForm .col2 form .row2 .val1, .val2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+  } */
+
+  .contact .registerForm .col2 form .row2 .val1 input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #9933CC;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
 
   }
 
+  .contact .registerForm .col2 form .row2 .val2 input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #9933CC;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+
+  }
+
+
   .contact .registerForm .col2 form .row3{
     width: 100%;
-    display: block;
-    /* flex-direction: column; */
-    gap: 0px;
-    font-size: 10px;
-    font-weight: 300;
-    color: #333;
   }
 
   /* .contact .registerForm .col2 form .row3 .val1{
@@ -220,11 +281,12 @@
     outline: none;
     word-break: break-all;
     word-wrap: break-word;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    font-size: 12px;
+    border: 1px solid #9933CC;
+    background-color: transparent;
+    font-size: 13px;
     font-weight: 300;
     color: #333;
+    /* font-family: 'Courier New', Courier, monospace; */
 
 
   }
@@ -251,7 +313,7 @@
   .contact .registerForm .col2 form button{
     width: 25%;
     height: 30px;
-    background-color: #a81590;
+    background-color: #d0b6fa;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -259,12 +321,12 @@
     border-radius: 5px;
     cursor: pointer;
     position: relative;
-    top: 35px;
+    top: 15px;
     right: 37%;
   }
 
   .contact .registerForm .col2 form button:hover{
-    background-color: #997393;
+    background-color: #5f0650;
     font-weight: bold;
     transition: background-color 0.3s ease;
     transition: transform 0.3s ease;
@@ -274,7 +336,49 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media only screen and (max-width: 1440px){
+
+    .contact{
+      width: 100%;
+      height: 110vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
     .contact .registerForm{
       width: 70%;
       height: 70vh;
@@ -283,12 +387,25 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-      background-color: #d89f9f;
+      background-color: #9933CC;
       border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+
     }
+
+    .contact .registerForm .container {
+      width: 85%;
+      height: 55vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  
     .contact .registerForm .col1{
-      width: 45%;
-      height: 50vh;
+      width: 50%;
+      height: 55vh;
       display: flex;
       flex-direction: column;
       padding: 20px;
@@ -334,8 +451,8 @@
     }
 
     .contact .registerForm .col2{
-      width: 45%;
-      height: 50vh;
+      width: 50%;
+      height: 55vh;
       display: flex;
       flex-direction: column;
       padding: 20px;
@@ -348,19 +465,34 @@
     }
   
   
-    .contact .registerForm .col2 form .row1 .val1 input, .val2 input{
+    .contact .registerForm .col2 form .row1 .val1 input{
       width: 100%;
       height: 30px;
       padding: 5px;
       outline: none;
       border-radius: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid #9933CC;
       background-color: #fff;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 300;
       color: #333;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
+    .contact .registerForm .col2 form .row1 .val2 input{
+      width: 100%;
+      height: 30px;
+      padding: 5px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #9933CC;
+      background-color: #fff;
+      font-size: 13px;
+      font-weight: 300;
+      color: #333;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
 
     .contact .registerForm .col2 form .row2 .val1 input{
       width: 100%;
@@ -368,18 +500,31 @@
       padding: 5px;
       outline: none;
       border-radius: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid #9933CC;
       background-color: #fff;
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 300;
       color: #333;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
     }
 
+    .contact .registerForm .col2 form .row2 .val2 input{
+      width: 100%;
+      height: 30px;
+      padding: 5px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #9933CC;
+      background-color: #fff;
+      font-size: 13px;
+      font-weight: 300;
+      color: #333;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
     .contact .registerForm .col2 form .row3 .field{
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 300;
       color: #333;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -398,23 +543,34 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-      background-color: #d89f9f;
+      /* background-color: #d89f9f; */
       border-radius: 5px;
     }
+
+    .contact .registerForm .container {
+      width: 90%;
+      height: 55vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
   
   }
 
 @media only screen and (max-width: 768px){
    .contact .registerForm{
-      width: 100%;
+      width: 90%;
       height: 70vh;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       gap: 20px;
-      background-color: #d89f9f;
-      border-radius: 0px;
+      background-color: #9933CC;
+      border-radius: 10px;
     }
 }
 
@@ -423,7 +579,7 @@
 
   .contact{
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,43 +587,81 @@
   }
 
   .contact .registerForm{
-    width: 100%;
-    height: 130vh;
+    width: 80%;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: #d89f9f;
-    border-radius: 0px;
+    background-color: #9933CC;
+    border-radius: 10px;
     padding: 10px;
   }
 
-  .contact .registerForm .col1{
+  .contact .registerForm .container {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    /* background-color: #5c6268; */
+  }
+
+
+  .contact .registerForm .container .col1{
     width: 100%;
     height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
     gap: 20px;
+    /* background-color: #d0b6fa; */
 
   }
 
-  .contact .registerForm .col2{
+  .contact .registerForm .container .col2{
+    /* background-color: #d0b6fa; */
+
     width: 100%;
     height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    background-color: #f8f9fa;
+    border-radius: 0px;
+    box-shadow: none;
     gap: 20px;
-
+    position: relative;
   }
+
+  .contact .registerForm .col2 form button{
+    width: 40%;
+    height: 30px;
+    background-color: #d0b6fa;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+
+  .contact .registerForm .col2 form button:hover{
+    background-color: #5f0650;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+  }
+
 
 
 }
@@ -475,14 +669,14 @@
 @media only screen and (max-width: 375px){
 
   .contact .registerForm{
-    width: 100%;
+    width: 80%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: #d89f9f;
+    background-color: #9933CC;
     border-radius: 0px;
     padding: 10px;
   }
@@ -503,6 +697,88 @@
 }
 
 @media only screen and (max-width: 320px){
+
+  .contact .registerForm{
+    width: 80%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .contact .registerForm .container {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+  }
+
+  .contact .registerForm .container .col1{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: transparent;
+    gap: 10px;
+
+  }
+
+  .contact .registerForm .container .col2{
+    background-color: transparent;
+    gap: 0px;
+    border: 1px solid #9933CC;
+    border-radius: 10px;
+    background-color: ;
+
+  }
+
+
+  .contact .registerForm .col1 .row1{
+    display: block;
+    gap: 0;
+    position: relative;
+    left: 0px;
+  }
+
+  .contact .registerForm .col1 .row1 p{
+font-size: 11px;  
+}
+.contact .registerForm .col1 .row2{
+  display: block;
+  gap: 0;
+  position: relative;
+  left: 0px;
+}
+
+.contact .registerForm .col1 .row2 p{
+font-size: 11px;  
+}
+
+
+  .contact .registerForm .col1 .row3{
+    display: block;
+    gap: 0;
+    position: relative;
+    left: 0px;
+  }
+
+  .contact .registerForm .col1 .row3 p{
+font-size: 11px;  }
+
+
 
 }
 

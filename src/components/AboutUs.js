@@ -1,9 +1,9 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-import Pix1 from "./img/why-choose-v1-img1 1.png";
+// import Pix1 from "./img/couple.jpeg";
 
-import Pix2 from "./img/counselor-and-happy-couple-after-effective-marital-6GBE9L5 1.png";
+// import Pix2 from "./img/counselor-and-happy-couple-after-effective-marital-6GBE9L5 1.png";
 
 // import Pix3 from "./img/Rectangle-35.png";
 
@@ -13,10 +13,11 @@ import Pix2 from "./img/counselor-and-happy-couple-after-effective-marital-6GBE9
 function AboutUs() {
   return (
     <div className="aboutUs">
+      <div className="container">
       <div className="section1">
         <div className="col1">
-          <img src={Pix1} alt="" className="Img-1" />
-          <img src={Pix2} alt="" className="Img-2" />
+          {/* <img src={Pix1} alt="" className="Img-1" /> */}
+          {/* <img src={Pix2} alt="" className="Img-2" /> */}
           {/* <img src={Pix3} alt="" className="Img-3" /> */}
           {/* <img src={Pix4} alt="" className="Img-4" /> */}
           {/* <img src={Pix5} alt="" className="Img-5" /> */}
@@ -85,6 +86,7 @@ function AboutUs() {
             </div> */}
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

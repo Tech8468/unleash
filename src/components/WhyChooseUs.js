@@ -9,6 +9,7 @@ import Pix1 from "./img/counsel-photo.jpg";
 function WhyChooseUs() {
   return (
     <div className="whyChooseUs">
+      <div className="container">
       <div className="section1">
         <div className="col1">
           <img src={Pix1} alt="" className="Img-1" />
@@ -52,6 +53,7 @@ function WhyChooseUs() {
           </div>
           {/* </div> */}
         </div>
+      </div>
       </div>
     </div>
   );

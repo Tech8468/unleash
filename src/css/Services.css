@@ -14,25 +14,47 @@
   /* gap: 20px; */
   /* justify-content: sp; */
   /* padding: 20px; */
-  background-color: #f5f5f5;
+  background-color: #d0b6fa;
   /* border-radius: 10px; */
 }
 
-.services .section0 {
-  width: 20%;
-  height: auto;
-  /* background-color: #a81590; */
-  position: relative;
-  top: 80px;
-  /* bottom: -40px; */
-  left: -360px;
+.services .container {
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* position: relative; */
+  /* left: 10px; */
+  background-color: #9933CC;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
-.services .section0 h1 {
+
+.services .container .section0 {
+  width: 85%;
+  height: auto;
+  background-color: white;
+  position: relative;
+  top: 80px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  /* bottom: -40px; */
+  top: -10px;
+  left: 0px;
+}
+
+.services .container .section0 h1 {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   text-align: left;
+  position: relative;
+  left: 10px;
 }
 
 .services .section1 {
@@ -40,22 +62,24 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 80%;
-  height: 70vh;
+  width: 85%;
+  height: 50vh;
   position: relative;
   top: -10px;
-  gap: 10px;
+  gap: 20px;
+  /* background-color: #d0b6fa; */
+  /* border-radius: 10px; */
 }
 
 .services .section1 .col1 {
-  width: 45%;
-  height: auto;
+  width: 50%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  padding: 11px;
-  border-radius: 10px;
-  border: 1px solid #a81590;
-  background-color: transparent;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  /* border-radius: 10px; */
+  background-color: white;
   /* background-color: aqua; */
   /* justify-content: space-between; */
   /* position: relative; */
@@ -68,7 +92,7 @@
 }
 
 .services .section1 .col1 .txt1 p {
-  color: #949394;
+  color: #333;
   font-size: 15px;
   font-weight: 400;
   text-align: left;
@@ -81,7 +105,7 @@
 }
 
 .services .section1 .col1 .txt2 p {
-  color: #949394;
+  color: #333;
   font-size: 15px;
   font-weight: 400;
   text-align: left;
@@ -94,7 +118,7 @@
 }
 
 .services .section1 .col1 .txt3 p {
-  color: #949394;
+  color: #333;
   font-size: 15px;
   font-weight: 400;
   text-align: left;
@@ -107,7 +131,7 @@
 }
 
 .services .section1 .col1 .txt4 p {
-  color: #949394;
+  color: #333;
   font-size: 15px;
   font-weight: 400;
   text-align: left;
@@ -120,70 +144,125 @@
 }
 
 .services .section1 .col1 .txt5 p {
-  color: #949394;
+  color: #333;
   font-size: 15px;
   font-weight: 400;
   text-align: left;
 }
 
-/* .services .section1 .col2{
-    width: 45%;
-    height: auto;
+.services .section1 .col2{
+    width: 50%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #a81590;
+    border-bottom-right-radius: 10px;
     background-color: transparent;
     gap: 16px;
-  } */
+    object-fit: cover;
+  }
 
 .services .section1 .col2 img {
   width: 100%;
-  height: 39.5vh;
-  object-fit: cover;
-  border-radius: 10px;
+  height: 50vh;
+  /* object-fit: cover; */
   /* border: 1px solid #a81590; */
-  background-color: #f5f5f5;
+  border-bottom-right-radius: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1440px) {
-  .services .section0 {
-    width: 20%;
-    height: auto;
-    position: relative;
-    top: 40px;
-    left: -310px;
+
+  .services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0b6fa;
   }
 
-  .services .section0 h1 {
+  .services .container {
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  
+  .services .container .section0 {
+    width: 85%;
+    height: auto;
+    position: relative;
+    padding: 5px;
+    /* top: 20px; */
+    /* left: 310px; */
+  }
+
+  .services .container .section0 h1 {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     text-align: left;
   }
 
-  .services .section1 {
+  .services .container .section1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 70vh;
+    width: 85%;
+    height: 55vh;
     position: relative;
-    top: -10px;
-    gap: 10px;
+    top: 0px;
+    gap: 20px;
+    /* background-color: #d0b6fa; */
   }
 
   .services .section1 .col1 {
-    width: 40%;
-    height: 50vh;
+    width: 50%;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     padding: 11px;
     border-radius: 10px;
-    border: 1px solid #a81590;
-    background-color: transparent;
+    background-color: white;
     gap: 16px;
   }
   .services .section1 .col1 .txt1 h1 {
@@ -252,73 +331,145 @@
   }
 
   .services .section1 .col2 {
-    width: 40%;
-    height: 50vh;
+    width: 50%;
+    height: 55vh;
     display: flex;
     border-radius: 10px;
   }
 
   .services .section1 .col2 img {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     object-fit: cover;
     border-radius: 10px;
     background-color: #f5f5f5;
   }
 }
 
+
+
+
+
+
 @media only screen and (max-width: 1024px) {
-  .services .section1 {
+
+  .services {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0b6fa;
+  }
+
+
+  .services .container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  
+  }
+
+  .services .container .section0 {
+    width: 90%;
+    height: auto;
+    position: relative;
+    padding: 5px;
+    /* top: 20px; */
+    /* left: 310px; */
+  }
+
+
+  .services .container .section1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 70vh;
+    width: 90%;
+    height: 55vh;
     position: relative;
     top: -10px;
     gap: 10px;
   }
 }
 
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
-  .services .section0 {
-    width: 20%;
-    height: auto;
-    position: relative;
-    top: 50px;
-    left: -260px;
+
+  .services {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d0b6fa;
   }
 
-  .services .section0 h1 {
+
+  .services .container {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  
+  }
+  .services .container .section0 {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 0px;
+  }
+
+  .services .container .section0 h1 {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     text-align: left;
   }
 
-  .services .section1 {
+  .services .container .section1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 70vh;
+    width: 90%;
+    height: 50vh;
     position: relative;
-    top: -10px;
-    gap: 20px;
+    top: 0px;
+    gap: 10px;
+    padding: 0;
   }
 
   .services .section1 .col1 {
-    width: 45%;
-    height: 45vh;
+    width: 50%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 11px;
     border-radius: 10px;
-    border: 1px solid #a81590;
-    background-color: transparent;
-    background-color: aqua;
+    background-color: white;
     gap: 15px;
   }
 
@@ -329,7 +480,7 @@
   }
 
   .services .section1 .col1 .txt1 p {
-    color: #949394;
+    color: #333;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
@@ -342,7 +493,7 @@
   }
 
   .services .section1 .col1 .txt2 p {
-    color: #949394;
+    color: #333;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
@@ -355,7 +506,7 @@
   }
 
   .services .section1 .col1 .txt3 p {
-    color: #949394;
+    color: #333;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
@@ -368,7 +519,7 @@
   }
 
   .services .section1 .col1 .txt4 p {
-    color: #949394;
+    color: #333;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
@@ -381,32 +532,41 @@
   }
 
   .services .section1 .col1 .txt5 p {
-    color: #949394;
+    color: #333;
     font-size: 12px;
     font-weight: 400;
     text-align: left;
   }
 
   .services .section1 .col2 {
-    width: 40%;
-    height: 45vh;
+    width: 50%;
+    height: 50vh;
     display: flex;
     border-radius: 10px;
   }
 
   .services .section1 .col2 img {
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     object-fit: cover;
     border-radius: 10px;
-    background-color: #f5f5f5;
   }
 }
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 425px) {
   .services {
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,17 +582,34 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     /* position: relative; */
     background: rgba(87, 45, 95, 0.884);
   }
 
-  .services .section0 {
-    width: 25%;
+  .services .container {
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  
+  }
+
+
+  .services .container .section0 {
+    width: 90%;
     height: auto;
     position: relative;
-    top: 50px;
-    left: -150px;
+    top: -40px;
+    /* left: -150px; */
   }
   .services .section0 h1 {
     font-size: 20px;
@@ -443,13 +620,14 @@
     /* top: -60px; */
   }
 
-  .services .section1 {
+  .services .container .section1 {
     display: block;
     width: 100%;
-    height: 70vh;
+    height: 45vh;
     position: relative;
-    top: 60px;
+    top: -60px;
     gap: 50px;
+    padding: 20px;
   }
 
   .services .section1 .col1 {
@@ -466,27 +644,27 @@
   }
 
   .services .section1 .col1 .txt1 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .services .section1 .col1 .txt1 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
   }
 
   .services .section1 .col1 .txt2 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .services .section1 .col1 .txt2 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     text-align: left;
   }
@@ -499,33 +677,33 @@
 
   .services .section1 .col1 .txt3 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
   }
 
   .services .section1 .col1 .txt4 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .services .section1 .col1 .txt4 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
   }
 
   .services .section1 .col1 .txt5 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .services .section1 .col1 .txt5 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
   }

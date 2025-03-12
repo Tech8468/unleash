@@ -8,51 +8,74 @@
   width: 100%;
   height: 90vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: #db1c92; */
-  /* border-bottom: 1px solid #a81590; */
+  gap: 10px;
+  background-size: 300% 300%;
+  background-image: linear-gradient(45deg,#9933CC, #b20000, #9933CC, #d0b6fa);
+  animation: animate 10s ease-in-out infinite;
 }
 
-.whyChooseUs .section1 {
+@keyframes animate{
+  0%{background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.whyChooseUs .container {
   width: 70%;
   height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #9933CC;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+
+}
+
+
+
+.whyChooseUs .section1 {
+  width: 85%;
+  height: 60vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #b3a0e5;
   gap: 20px;
-  border-radius: 10px;
+
 }
 
+
 .whyChooseUs .col1 {
-  width: 40%;
-  height: 40vh;
+  width: 50%;
+  height: 49vh;
   object-fit: cover;
   border-radius: 10px;
   /* border: 1px solid #a81590; */
-  background-color: #c93131;
+  /* background-color: #c93131; */
 }
 
 .whyChooseUs .col1 img {
   width: 100%;
-  height: 40vh;
+  height: 49vh;
   border-radius: 10px;
 }
 
 .whyChooseUs .col2 {
   width: 50%;
-  height: 40vh;
+  height: 49vh;
   object-fit: cover;
   border-radius: 10px;
-  /* border: 1px solid #a81590; */
-  /* background-color: #23965c; */
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px;
+  gap: 25px;
+  /* background-color: green; */
+  /* padding: 10px; */
 }
 
 /* .whyChooseUs .section1 .col2::after{
@@ -64,97 +87,154 @@
     } */
 
 .whyChooseUs .section1 .col2 .txtHd {
-  height: 50px;
+  width: 100%;
+  height: 40px;
   position: relative;
-  border-bottom: 1px solid whitesmoke;
-  /* top: 10%; */
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  /* border-bottom: 1px solid whitesmoke; */
+  top: 0px;
 }
 
 .whyChooseUs .section1 .col2 .txtHd h1 {
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   font-weight: 700;
 }
 
 .whyChooseUs .section1 .col2 .txtHd1 {
   width: 100%;
-  height: 80%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 10px;
-  gap: 10px;
-  border-bottom: 1px solid whitesmoke;
+  top: -10px;
+  gap: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+  /* border-bottom: 1px solid whitesmoke; */
 }
 
 .whyChooseUs .section1 .col2 .txtHd1 .txt1 h1 {
-  font-size: 15px;
-  color: #333;
-  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
 }
 
 .whyChooseUs .section1 .col2 .txtHd1 .txt1 p {
-  color: whitesmoke;
-  font-size: 12px;
-  font-weight: 400;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
   text-align: left;
 }
 
 .whyChooseUs .section1 .col2 .txt2 h1 {
-  font-size: 15px;
-  color: #333;
-  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
 }
 
 .whyChooseUs .section1 .col2 .txt2 p {
-  color: whitesmoke;
-  font-size: 12px;
+  color: black;
+  font-size: 15px;
   font-weight: 400;
   text-align: left;
 }
 
 .whyChooseUs .section1 .col2 .txtHd1 .txt3 h1 {
-  font-size: 15px;
-  color: #333;
-  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
 }
 
 .whyChooseUs .section1 .col2 .txt3 p {
-  color: whitesmoke;
-  font-size: 12px;
+  color: black;
+  font-size: 15px;
   font-weight: 400;
   text-align: left;
 }
 
 .whyChooseUs .section1 .col2 .txt4 h1 {
-  font-size: 15px;
-  color: #333;
-  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
 }
 
 .whyChooseUs .section1 .col2 .txt4 p {
-  color: whitesmoke;
-  font-size: 12px;
+  color: black;
+  font-size: 15px;
   font-weight: 400;
   text-align: left;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1440px) {
-  .whyChooseUs .section1 {
+
+  .whyChooseUs {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .whyChooseUs .container {
     width: 70%;
     height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+  }
+  
+  .whyChooseUs .section1 {
+    width: 85%;
+    height: 55vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #b3a0e5;
-    gap: 10px;
+    /* background-color: #b5a6bd; */
+    gap: 20px;
     border-radius: 10px;
+    position: relative;
+    left: 10px;
   }
 
   .whyChooseUs .col1 {
-    width: 45%;
-    height: 50vh;
+    width: 50%;
+    height: 55vh;
     object-fit: cover;
     border-radius: 10px;
     background-color: #c93131;
@@ -162,28 +242,46 @@
 
   .whyChooseUs .col1 img {
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
   }
 
   .whyChooseUs .col2 {
-    width: 45%;
-    height: 50vh;
+    width: 50%;
+    height: 55vh;
     object-fit: cover;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+    gap: 20px;
   }
+
+  .whyChooseUs .section1 .col2 .txtHd {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    /* border-bottom: 1px solid whitesmoke; */
+    top: 0px;
+  }
+  
+  .whyChooseUs .section1 .col2 .txtHd h1 {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+  }
+  
 
   .whyChooseUs .section1 .col2 .txtHd1 {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -10px;
+    top: 0px;
     gap: 12px;
     padding: 10px;
     border-bottom: 1px solid whitesmoke;
@@ -251,28 +349,56 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .whyChooseUs .section1 {
+
+  .whyChooseUs {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .whyChooseUs .container {
     width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+  
+  }
+
+  .whyChooseUs .container .section1 {
+    width: 90%;
     height: 70vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #b3a0e5;
+    /* background-color: #b3a0e5; */
     gap: 10px;
     border-radius: 10px;
+    position: relative;
+    left: 0px;
+    /* padding: 10px; */
   }
 
   .whyChooseUs .col1 {
-    width: 45%;
-    height: 50vh;
+    width: 50%;
+    height: 55vh;
     object-fit: cover;
     border-radius: 10px;
   }
 
   .whyChooseUs .col1 img {
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
   }
 
@@ -283,7 +409,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
@@ -291,39 +417,65 @@
     color: black;
     font-weight: 700;
     position: relative;
-    top: 10px;
+    /* top: 10px; */
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .whyChooseUs .section1 {
+
+  .whyChooseUs {
     width: 100%;
-    height: 70vh;
+    height: 110vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #b3a0e5;
-    gap: 5px;
-    padding: 5px;
+  }
+
+  .whyChooseUs .container {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+  
+  }
+
+
+  .whyChooseUs .container .section1 {
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #b3a0e5; */
+    /* gap: 5px; */
+    /* padding: 5px; */
     border-radius: 0px;
   }
 
   .whyChooseUs .col1 {
-    width: 48%;
-    height: 50vh;
+    display: none;
+    /* width: 30%;
+    height: 40vh;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 10px; */
   }
 
-  .whyChooseUs .col1 img {
+  /* .whyChooseUs .col1 img {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     border-radius: 10px;
-  }
+  } */
 
   .whyChooseUs .col2 {
-    width: 48%;
+    width: 100%;
     height: 50vh;
     border-radius: 10px;
     display: flex;
@@ -332,13 +484,29 @@
     padding: 10px;
   }
 
+  .whyChooseUs .section1 .col2 .txtHd{
+    width: 100%;
+    padding: 5px;
+    border-radius: 0px;
+  }
+
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 20px;
     color: black;
     font-weight: 700;
     position: relative;
-    top: -5px;
+    top: 0px;
   }
+
+  .whyChooseUs .section1 .col2 .txtHd1{
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+    padding: 15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
 
   .whyChooseUs .section1 .col2 .txtHd1 .txt1 h1 {
     font-size: 13px;
@@ -401,28 +569,55 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .whyChooseUs .section1 {
-    width: 100%;
-    height: 70vh;
-    background-image: url("../components/img/counsel-photo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    /* background-color: #b3a0e5; */
-    gap: 5px;
-    padding: 5px;
-    border-radius: 0px;
+
+
+
+
+@media only screen and (max-width: 425px) {
+
+  .whyChooseUs {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .whyChooseUs .section1:before {
+  .whyChooseUs .container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+  
+  }
+
+  .whyChooseUs .container .section1 {
+    width: 100%;
+    height: 80vh;
+
+    background-color: transparent;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  /* .whyChooseUs .section1:before {
     content: "";
     position: absolute;
     width: 100%;
-    height: 70vh;
-    /* position: relative; */
-    background: rgba(0, 0, 0, 0.884);
-  }
+    height: 80vh;
+    border-radius: 10px;
+    background: rgba(63, 62, 62, 0.884);
+  } */
 
   .whyChooseUs .section1 .col1 {
     display: none;
@@ -445,21 +640,28 @@
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 20px;
-    color: whitesmoke;
+    color: black;
     font-weight: 500;
     position: relative;
-    top: 10px;
+    top: 0px;
+  }
+
+  .whyChooseUs .section1 .col2 .txtHd1{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -20px;
   }
 
   .whyChooseUs .section1 .col2 .txtHd1 .txt1 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .whyChooseUs .section1 .col2 .txtHd1 .txt1 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
     position: relative;
@@ -467,14 +669,14 @@
   }
 
   .whyChooseUs .section1 .col2 .txt2 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .whyChooseUs .section1 .col2 .txt2 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
     position: relative;
@@ -482,14 +684,14 @@
   }
 
   .whyChooseUs .section1 .col2 .txtHd1 .txt3 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .whyChooseUs .section1 .col2 .txt3 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
     position: relative;
@@ -497,14 +699,14 @@
   }
 
   .whyChooseUs .section1 .col2 .txt4 h1 {
-    font-size: 13px;
+    font-size: 15px;
     color: whitesmoke;
     font-weight: 500;
   }
 
   .whyChooseUs .section1 .col2 .txt4 p {
     color: wheat;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 300;
     text-align: left;
     position: relative;
@@ -512,17 +714,94 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .whyChooseUs .section1 .col2 .txtHd {
+@media only screen and (max-width: 375px){
+
+  .whyChooseUs {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whyChooseUs .container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+  
+  }
+
+  .whyChooseUs .container .section1 .col2 .txtHd {
     position: relative;
-    top: 0px;
+    top: -40px;
   }
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 20px;
-    color: whitesmoke;
+    color: black;
     font-weight: 500;
     position: relative;
-    top: -10px;
+    top: 0px;
   }
+
+  .whyChooseUs .container .section1 .col2 .txtHd1 {
+    position: relative;
+    top: -55px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .whyChooseUs {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .whyChooseUs .container {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #9933CC;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+  
+  }
+
+  .whyChooseUs .container .section1 .col2 .txtHd {
+    position: relative;
+    top: -80px;
+  }
+
+  .whyChooseUs .section1 .col2 .txtHd h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    top: 0px;
+  }
+
+  .whyChooseUs .container .section1 .col2 .txtHd1 {
+    position: relative;
+    top: -95px;
+  }
+
 }

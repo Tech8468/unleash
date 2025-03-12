@@ -50,87 +50,103 @@ function Contact() {
   return (
     <div className="contact">
       <div className="registerForm">
-        <div className="col1">
-          <div className="row1">
-            <h1>Need help?</h1>
-          </div>
-          <div className="row2">
-            <h2>Customer Service</h2>
-            <p>+234-702-0000-000</p>
-          </div>
-          <div className="row3">
-            <h2>Send Enquiry</h2>
-            <p>unleash@gmail.com</p>
-          </div>
-        </div>
-        <div className="col2">
-          <form className="form" onSubmit={addUser}>
+        <div className="container">
+          <div className="col1">
             <div className="row1">
-              <div className="val1">
-                <input
-                  type="text"
-                  placeholder="First Name"
-                  value={userData.fname}
-                  onChange={(e) =>
-                    setUserData({ ...userData, fname: e.target.value })
-                  }
-                />
-                {err === true && userData.fname === "" ? (
-                  <span>First name required</span>
-                ) : null}
-              </div>
-              <div className="val2">
-                <input
-                  type="text"
-                  placeholder="Last Name"
-                  value={userData.lname}
-                  onChange={(e) =>
-                    setUserData({ ...userData, lname: e.target.value })
-                  }
-                />
-                {err === true && userData.lname === "" ? (
-                  <span>Last name required</span>
-                ) : null}
-              </div>
+              <h1>Need help?</h1>
             </div>
             <div className="row2">
-              <div className="val1">
-                <input
-                  type="text"
-                  placeholder="Email Address"
-                  value={userData.email}
-                  onChange={(e) =>
-                    setUserData({ ...userData, email: e.target.value })
-                  }
-                />
-                {err === true && userData.email === "" ? (
-                  <span>Last name required</span>
-                ) : null}
-              </div>
-              <div className="val2">
-                <input
-                  type="text"
-                  placeholder="Phone Number"
-                  value={userData.phone}
-                  onChange={(e) =>
-                    setUserData({ ...userData, phone: e.target.value })
-                  }
-                />
-                {err === true && userData.phone === "" ? (
-                  <span>Phone number required</span>
-                ) : null}
-              </div>
+              <h2>Office Address</h2>
+              <p>📍 12 Ajoke Estate, Fagba, Lagos</p>
             </div>
+            <div className="row2">
+              <h2>Customer Service</h2>
+              <p>📞 +234 9030413637</p>
+              <p>📞 +234 8094352991</p>
+            </div>
+
             <div className="row3">
-              {/* <div className="val1"> */}
-                <textarea name="message" className="field" placeholder="Enter your message" value={userData.message} onChange={(e) => setUserData({ ...userData, message: e.target.value })}></textarea>
+              <h2>Send Enquiry</h2>
+              <p>📧 unleashcounseling@gmail.com</p>
+            </div>
+          </div>
+          <div className="col2">
+            <form className="form" onSubmit={addUser}>
+              <div className="row1">
+                <div className="val1">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    value={userData.fname}
+                    onChange={(e) =>
+                      setUserData({ ...userData, fname: e.target.value })
+                    }
+                  />
+                  {err === true && userData.fname === "" ? (
+                    <span>First name required</span>
+                  ) : null}
+                </div>
+                <div className="val2">
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    value={userData.lname}
+                    onChange={(e) =>
+                      setUserData({ ...userData, lname: e.target.value })
+                    }
+                  />
+                  {err === true && userData.lname === "" ? (
+                    <span>Last name required</span>
+                  ) : null}
+                </div>
+              </div>
+              <div className="row2">
+                <div className="val1">
+                  <input
+                    type="text"
+                    placeholder="Email Address"
+                    value={userData.email}
+                    onChange={(e) =>
+                      setUserData({ ...userData, email: e.target.value })
+                    }
+                  />
+                  {err === true && userData.email === "" ? (
+                    <span>Last name required</span>
+                  ) : null}
+                </div>
+                <div className="val2">
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    value={userData.phone}
+                    onChange={(e) =>
+                      setUserData({ ...userData, phone: e.target.value })
+                    }
+                  />
+                  {err === true && userData.phone === "" ? (
+                    <span>Phone number required</span>
+                  ) : null}
+                </div>
+              </div>
+              <div className="row3">
+                {/* <div className="val1"> */}
+                <textarea
+                  name="message"
+                  className="field"
+                  placeholder="Enter your message"
+                  value={userData.message}
+                  onChange={(e) =>
+                    setUserData({ ...userData, message: e.target.value })
+                  }
+                ></textarea>
                 {err === true && userData.message === "" ? (
                   <span>Field required</span>
                 ) : null}
-              {/* </div> */}
-            </div>
-            <button type="submit">SUBMIT</button>
-          </form>
+                {/* </div> */}
+              </div>
+              <button type="submit">SUBMIT</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>

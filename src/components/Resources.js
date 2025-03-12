@@ -8,10 +8,11 @@ import Pix3 from "./img/Book-1.jpeg";
 function Resources() {
   return (
     <div className="resources">
-      <div className="section0">
-        <h1>Resources!</h1>
-      </div>
+      {/* <div className="container"></div> */}
       <div className="section1">
+        <div className="section0">
+          <h1>Resources!</h1>
+        </div>
         <div className="col1">
           {/* <div className="txtHd1"> */}
           <div className="grid1">
