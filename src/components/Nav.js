@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import Logo from "./img/unleash_logo.png";
-
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Logo from "./img/unleash_logo.png";
+
 function Nav() {
   const menuRef = useRef();
 
@@ -10,60 +9,69 @@ function Nav() {
     menuRef.current.classList.toggle("show-menu");
   };
 
-  // const handleToggleMenu = () => {
-  //   const menu = document.querySelector(".nav-menu");
-  //   menu.classList.toggle("show-menu");
-
-  //   const hamburger = document.querySelector(".hamburger-menu");
-  //   hamburger.classList.toggle("open");
-
-  //   const navLinks = document.querySelectorAll(".nav-item");
-  //   navLinks.forEach((link) => link.classList.toggle("show"));
-  //   const links = document.querySelectorAll(".nav-link");
-  //   links.forEach((link) => link.addEventListener("click", handleToggleMenu));
-  //   links.forEach((link) => link.removeEventListener("click", handleToggleMenu));
-  //   document.addEventListener("click", handleToggleMenu);
-  //   document.removeEventListener("click", handleToggleMenu);
-
-  // };
-
-  console.log(handleToggleMenu);
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    handleToggleMenu();
+  };
 
   return (
-    <div className="navbar">
-      <Link to="/">
+    <div className="navbar" id="navbar">
+      <a href="/">
         <img src={Logo} alt="" />
-      </Link>
+      </a>
       <ul className="nav-menu" ref={menuRef}>
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <a
+            href="#home"
+            className="nav-link"
+            onClick={() => handleScroll("home")}
+          >
             Home
-          </Link>
+          </a>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <a
+            href="#aboutUs"
+            className="nav-link"
+            onClick={() => handleScroll("aboutUs")}
+          >
             About Us
-          </Link>
+          </a>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <a href="#services" className="nav-link">
             Services
-          </Link>
+          </a>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <a
+            href="#whyChooseUs"
+            className="nav-link"
+            onClick={() => handleScroll("whyChooseUs")}
+          >
             Why Choose Us?
-          </Link>
+          </a>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <a
+            href="#resources"
+            className="nav-link"
+            onClick={() => handleScroll("resources")}
+          >
             Resources
-          </Link>
+          </a>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">
+          <a
+            href="#footer"
+            className="nav-link"
+            onClick={() => handleScroll("footer")}
+          >
             Contact Us
-          </Link>
+          </a>
         </li>
         <button className="nav-btn nav-close-btn" onClick={handleToggleMenu}>
           <FaTimes />
@@ -72,12 +80,8 @@ function Nav() {
       <button className="nav-btn" onClick={handleToggleMenu}>
         <FaBars />
       </button>
-      {/* <div className="hamburger-menu" onClick={handleToggleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </div> */}
     </div>
   );
 }
+
 export default Nav;
