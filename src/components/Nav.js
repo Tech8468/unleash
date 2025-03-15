@@ -57,6 +57,15 @@ function Nav() {
         </li>
         <li className="nav-item">
           <a
+            href="#profile"
+            className="nav-link"
+            onClick={() => handleScroll("profile")}
+          >
+            Profile
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
             href="#resources"
             className="nav-link"
             onClick={() => handleScroll("resources")}
@@ -66,9 +75,18 @@ function Nav() {
         </li>
         <li className="nav-item">
           <a
-            href="#footer"
+            href="#blog"
             className="nav-link"
-            onClick={() => handleScroll("footer")}
+            onClick={() => handleScroll("blog")}
+          >
+            Blog
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#contact"
+            className="nav-link"
+            onClick={() => handleScroll("contact")}
           >
             Contact Us
           </a>

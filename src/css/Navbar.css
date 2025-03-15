@@ -11,24 +11,14 @@
   justify-content: center;
   width: 100%;
   height: 70px;
-  gap: 400px;
-  /* padding: 0 1rem; */
-  /* background: transparent; */
+  gap: 250px;
+  padding: 20px;
   background: #d0b6fa;
-
-  /* position: relative;
-    top: 50px; */
-  /* background-color: #a81590; */
-  /* position: sticky; */
+  position: fixed;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-/* .navbar::before{
-    content: '';
-  position: absolute;
-  width: 100%;
-  height: 80px;
-  background: rgba(233, 34, 223, 0.2);
-} */
 
 .navbar img {
   width: 80px;
@@ -37,14 +27,19 @@
 }
 
 .nav-menu {
+ width: 100%;
+ height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   align-items: center;
   gap: 20px;
+  /* background-color: #9933CC; */
 }
 
 .nav-link {
   transition: 0.7s ease;
+  text-align: right;
 }
 
 .nav-link:hover {
@@ -88,13 +83,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .navbar {
+  /* .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 100px;
+    gap: 50px;
     padding: 20px;
-  }
+  } */
 
   /* .navbar .nav-btn {
     display: inline;
@@ -103,19 +98,7 @@
   } */
 
   /* .nav-menu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    gap: 1.5rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(136, 7, 112);
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-    transform: translateX(-200vh);
+    max-width: 100%;
   } */
   /* .show-menu {
     transform: none;
@@ -123,20 +106,19 @@
   } */
 
 
-  .navbar li {
+  /* .navbar li {
     color: black;
     position: relative;
     top: 8px;
     border-bottom: none;
-    /* font-weight: 700; */
     gap: 5px;
-  }
+  } */
 
-  .navbar li a {
+  /* .navbar li a {
     font-size: 15px;
     color: black;
     gap: 5px;
-  }
+  } */
 
   /* .nav-item a{
         font-size: 1.5rem;
@@ -144,6 +126,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+  }
+
   .navbar .nav-btn {
     display: inline;
     visibility: visible;

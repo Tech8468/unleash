@@ -209,19 +209,20 @@
       align-items: center;
       justify-content: center;
       width: 85%;
-      height: 50vh;
+      height: 55vh;
       position: relative;
       top: -10px;
       gap: 10px;
     }
   
-    .profile .section1 .col1 {
+    .profile .container .section1 .col1 {
       width: 70%;
       height: 50vh;
       display: flex;
       flex-direction: column;
       padding: 20px;
       border-radius: 10px;
+      /* overflow-y: hidden; */
       /* background-color: white; */
       /* background-color: aqua; */
       /* justify-content: space-between; */
@@ -242,17 +243,18 @@
       text-align: left;
     } */
 
-    .profile .section1 .col1 .txt2{
+    .profile .container .section1 .col1 .txt2{
+      height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px;
-      position: relative;
-      top: 0px;
-      gap: 10px;
+      /* padding: 0px; */
+      padding-top: 0px !important; 
+      padding-bottom: 0px !important;
       border-left: 1px solid black;
       border-right: 1px solid black;
+      overflow-y: auto;
   
     }
   

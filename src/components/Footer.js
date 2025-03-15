@@ -38,7 +38,13 @@ function Footer() {
               <li>Why Choose Us?</li>
             </Link>
             <Link to="/" className="footer-link">
+              <li>Profile</li>
+            </Link>
+            <Link to="/" className="footer-link">
               <li>Resources</li>
+            </Link>
+            <Link to="/" className="footer-link">
+              <li>Blog</li>
             </Link>
             <Link to="/" className="footer-link">
               <li>Contact Us</li>
@@ -55,7 +61,7 @@ function Footer() {
           <Link to="/">
           <TiSocialLinkedinCircular  className="linkedin"/>
           </Link>
-          <Link to="/">
+          <Link to="https://wa.me/2348065542118">
           <PiWhatsappLogoLight className="whatsApp"/>
           </Link>
         </div>

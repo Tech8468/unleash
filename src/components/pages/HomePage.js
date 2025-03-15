@@ -52,6 +52,7 @@ function HomePage() {
         <WhyChooseUs />
       </motion.div>
       <motion.div
+        id="profile"
         initial="hidden"
         whileInView="visible"
         variants={sectionVariants}
@@ -67,6 +68,7 @@ function HomePage() {
         <Resources />
       </motion.div>
       <motion.div
+        id="blog"
         initial="hidden"
         whileInView="visible"
         variants={sectionVariants}
@@ -74,13 +76,14 @@ function HomePage() {
         <Blog />
       </motion.div>
       <motion.div
-        id="footer"
+        id="contact"
         initial="hidden"
         whileInView="visible"
         variants={sectionVariants}
       >
         <Contact />
       </motion.div>
+      
       <Footer />
     </div>
   );
