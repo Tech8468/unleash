@@ -5,8 +5,8 @@
 }
 
 .aboutUs {
-  max-width: 100%;
-  min-height: 90vh;
+ width: 100%;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +24,8 @@
 }
 
 .aboutUs .container {
-  max-width: 70%;
-  min-height: 70vh;
+  width: 70%;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,8 +39,8 @@
 
 
 .aboutUs .section1 {
-  max-width: 85%;
-  min-height: 70vh;
+  width: 85%;
+ height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -96,13 +96,13 @@
 
 
 .aboutUs .section1 .col2 {
-  max-width: 50%;
-  min-height: 50vh;
+ width: 50%;
+  height: 50vh;
   background-color: white;
   border-top-right-radius: 10px;
-  position: relative;
+  /* position: relative; */
   /* top: 80px; */
-  left: 0px;
+  /* left: 0px; */
   gap: 10px;
   display: flex;
   flex-direction: column;
@@ -190,7 +190,40 @@
 
 
 
+@media only screen and (max-width: 1560px){
+  .aboutUs {
+    width: 100%;
+    height: 130vh;
+  }
 
+  .aboutUs .container {
+    width: 70%;
+    height: 100vh;
+  
+  }
+  
+  
+  .aboutUs .container .section1 {
+    width: 85%;
+    height: 90vh;
+  }
+  
+  
+  
+  .aboutUs .section1 .col1 {
+    width: 50%;
+    height: 70vh;
+  }
+  
+  
+  
+  .aboutUs .section1 .col2 {
+    width: 50%;
+    height: 70vh;
+  }
+  
+  
+}
 
 
 
@@ -199,6 +232,32 @@
 
 
 @media only screen and (max-width: 1440px) {
+
+  .aboutUs .section1 .col1 {
+    width: 50%;
+    height: 55vh;
+    background-position: center;
+  }
+  
+  .aboutUs .container .section1 {
+    width: 85%;
+    height: 70vh;
+  }
+  
+  
+  
+  .aboutUs .section1 .col1 {
+    width: 50%;
+    height: 70vh;
+  }
+  
+  
+  
+  .aboutUs .section1 .col2 {
+    width: 50%;
+    height: 70vh;
+  }
+
 
   /* .aboutUs {
     width: 100%;
@@ -345,56 +404,26 @@
   }
 
   .aboutUs .container {
-    width: 90%;
+    width: 80%;
     height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
   }
 
-  .aboutUs .section1 {
-    width: 750px;
-    height: 70vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    padding: 10px;
-    background-color: #333;
+  .aboutUs .container .section1{
+    width: 90%;
+    height: 65vh;
 
-    /* left: 10px; */
   }
 
-  .aboutUs .section1 .col1 {
+  .aboutUs  .container .section1 .col1{
     width: 50%;
-   height: 60vh;
-    background-image: url("../components/img/couple.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-top-left-radius: 10px;
-    /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+   height: 65vh;
   
   }
 
-  .aboutUs .section1 .col2 {
+  .aboutUs .container .section1 .col2 {
     width: 50%;
-    height: 60vh;
-    position: relative;
-    left: 0px;
-    gap: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 65vh;
+    gap: 10px;
   }
 
   .aboutUs .section1 .col2 .tab1 h1 {
@@ -424,7 +453,7 @@
     font-weight: 700;
     text-align: left;
     position: relative;
-    top: -10px;
+    /* top: -10px; */
   }
 
   .aboutUs .section1 .col2 .tab2 h1 {

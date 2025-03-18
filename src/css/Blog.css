@@ -73,22 +73,28 @@
   .blog .section1 .col1 {
     width: 50%;
     height: 50vh;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     padding: 20px;
     border-radius: 10px;
     background-color: white;
     /* background-color: aqua; */
     /* justify-content: space-between; */
     /* position: relative; */
-    gap: 16px;
+    /* gap: 16px; */
+  }
+
+  .blog .section1 .col1 .txt1{
+    display: block;
+    gap: 40px;
+    /* background-color: #733232; */
   }
   .blog .section1 .col1 .txt1 h1 {
     font-size: 20px;
     color: #333;
     font-weight: 700;
-    display: flex;
-    flex-direction: column;
   }
 
   .blog .section1 .col1 .txt1 .author{
@@ -101,8 +107,8 @@
     font-size: 12px;
     color: #333;
     font-weight: 700;
-    position: relative;
-    top: 15px;
+    /* position: relative;
+    top: 15px; */
   }
   
   .blog .section1 .col1 .txt2 p {
@@ -117,8 +123,6 @@
   .blog .section1 .col1 .txt2 a{
     text-decoration: none;
     cursor: pointer;
-    position: relative;
-    top: 60px;
 
   }
 
@@ -127,6 +131,9 @@
     font-size: 15px;
     font-weight: 400;
     text-align: left;
+    position: relative;
+    top: 30px;
+
   }
 
   .blog .section1 .col1 .txt2 .read:hover{
@@ -153,7 +160,29 @@
 
 
 
-
+  @media only screen and (max-width: 1560px){
+    
+    .blog {
+      width: 100%;
+      height: 130vh;
+    }
+    
+    .blog .container {
+      width: 70%;
+      height: 100vh;
+    
+    }
+    
+    .blog .section1 {
+      width: 85%;
+      height: 50vh;
+      /* background-color: #949394; */
+    }
+     .blog .section1 .col1 {
+      width: 50%;
+      height: 50vh;
+     }
+  }
 
 
   
@@ -163,17 +192,17 @@
     .blog {
       width: 100%;
       height: 110vh;
-      display: flex;
+      /* display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #d0b6fa;
+      background-color: #d0b6fa; */
     }
     
     .blog .container {
       width: 70%;
       height: 80vh;
-      display: flex;
+      /* display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -181,16 +210,16 @@
       position: relative;
       background-color: #9933CC;
       border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
     
     }
   
     .blog .section0 {
       width: 85%;
       height: auto;
-      position: relative;
+      /* position: relative;
       top: 40px;
-      left: -310px;
+      left: -310px; */
     }
   
     .blog .section0 h1 {
@@ -201,28 +230,28 @@
     }
   
     .blog .container .section1 {
-      display: flex;
+      /* display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: center;
+      justify-content: center; */
       width: 85%;
       height: 55vh;
-      position: relative;
+      /* position: relative;
       top: -10px;
-      gap: 20px;
+      gap: 20px; */
       /* background-color: #d0b6fa; */
     }
   
     .blog .section1 .col1 {
       width: 50%;
       height: 55vh;
-      display: flex;
+      /* display: flex;
       flex-direction: column;
       padding: 11px;
-      border-radius: 10px;
+      border-radius: 10px; */
       /* border: 1px solid #a81590; */
       /* background-color: transparent; */
-      gap: 16px;
+      /* gap: 16px; */
     }
     .blog .section1 .col1 .txt1 h1 {
       font-size: 20px;
@@ -310,35 +339,17 @@
     .blog .container {
       width: 80%;
       height: 80vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      position: relative;
-      background-color: #9933CC;
-      border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     
     }
   
     .blog .container .section0 {
       width: 90%;
       height: auto;
-      position: relative;
-      top: 0px;
     }
 
     .blog .container .section1 {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
       width: 90%;
       height: 55vh;
-      position: relative;
-      top: 0px;
-      gap: 20px;
     }
 
     .blog .section1 .col1 .txt2 a{
@@ -347,6 +358,19 @@
       position: relative;
       top: 40px;
     }
+
+    .blog .section1 .col1 .txt2 .read {
+      position: relative;
+      top: -10px;
+  
+    }
+    .blog .section1 .col1 .txt1 h1 {
+      font-size: 16px;
+      color: #333;
+      font-weight: 700;
+    }
+
+  
   }
   
   @media only screen and (max-width: 768px) {

@@ -15,12 +15,12 @@ function Home() {
     <div className="hBanner">
       <div className="section1">
         {/* <div className="background"> */}
-          <div className="coverTxt">
-            <h1>Empowering Lives, Transforming Future</h1>
-          </div>
+        <div className="imgCover"></div>
+        <div className="coverTxt">
+          <h1>Empowering Lives, Transforming Future</h1>
+        </div>
         {/* </div> */}
       </div>
-      
     </div>
   );
 }

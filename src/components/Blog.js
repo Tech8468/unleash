@@ -14,13 +14,11 @@ function Blog() {
           <div className="col1">
             {/* <div className="txtHd1"> */}
             <div className="txt1">
-              <h1>
-                <span className="title">
-                  Self-Love or Self-Worship: What am I Doing?
-                </span>
-                <span className="author">Doyin Ajayi</span>
-                <span className="date">Feb 28, 2025</span>
+              <h1 className="title">
+                Self-Love or Self-Worship: What am I Doing?
               </h1>
+              <p className="author">Doyin Ajayi</p>
+              <p className="date">Feb 28, 2025</p>
             </div>
             <div className="txt2">
               <p>
@@ -40,13 +38,9 @@ function Blog() {
           </div>
           <div className="col1">
             <div className="txt1">
-              <h1>
-                <span className="title">
-                  How to Pick The Right Partner for You
-                </span>
-                <span className="author">Doyin Ajayi</span>
-                <span className="date">Feb 28, 2025</span>
-              </h1>
+              <h1 className="title">How to Pick The Right Partner for You</h1>
+              <p className="author">Doyin Ajayi</p>
+              <p className="date">Feb 28, 2025</p>
             </div>
             <div className="txt2">
               <p>

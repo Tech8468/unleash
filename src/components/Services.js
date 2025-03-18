@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-import Pix1 from "./img/couples-3.png";
+// import Pix1 from "./img/couples-3.png";
 
 function Services() {
   return (
@@ -39,7 +39,7 @@ function Services() {
             {/* </div> */}
           </div>
           <div className="col2">
-            <img src={Pix1} alt="" className="Img-1" />
+            {/* <img src={Pix1} alt="" className="Img-1" /> */}
           </div>
         </div>
       </div>

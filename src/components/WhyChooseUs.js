@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-import Pix1 from "./img/counsel-photo.jpg";
+// import Pix1 from "./img/counsel-photo.jpg";
 
 // import Pix4 from "./img/Rectangle-36.png";
 // import Pix5 from "./img/why-choose-v1-shape2 1.png";
@@ -12,7 +12,7 @@ function WhyChooseUs() {
       <div className="container">
       <div className="section1">
         <div className="col1">
-          <img src={Pix1} alt="" className="Img-1" />
+          {/* <img src={Pix1} alt="" className="Img-1" /> */}
         </div>
         <div className="col2">
           {/* <div className="tab2"> */}

@@ -231,7 +231,23 @@
 
 
 
+  @media only screen and (max-width: 1560px){
+    .resources {
+      width: 100%;
+      height: 130vh;
+    }
+    
+    .resources .section1 {
+        width: 70%;
+        height: 100vh;
+    }
 
+    .resources .section1 .col1{
+      width: 90%;
+      height: 60vh;
+    }
+
+  }
 
 
 
@@ -241,38 +257,18 @@
   @media only screen and (max-width: 1440px){
 
     .resources {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       width: 100%;
       height: 110vh;
-      /* background-color: #d0b6fa; */
-      position: relative;
-      /* top: -10px; */
-      gap: 10px;
     }
   
     .resources .section1 {  
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       width: 70%;
       height: 80vh;
-      /* border-bottom: 1px solid #9933CC; */
-      gap: 10px;
     }
 
     .resources .section1 .col1{
       width: 90%;
       height: 60vh;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      gap: 20px;
-      /* background-color: #b20000; */
     }
   
   }

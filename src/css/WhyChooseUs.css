@@ -56,15 +56,19 @@
   height: 49vh;
   object-fit: cover;
   border-radius: 10px;
+  background-image: url("../components/img/counsel-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
   /* border: 1px solid #a81590; */
   /* background-color: #c93131; */
 }
 
-.whyChooseUs .col1 img {
+/* .whyChooseUs .col1 img {
   width: 100%;
   height: 49vh;
   border-radius: 10px;
-}
+} */
 
 .whyChooseUs .col2 {
   width: 50%;
@@ -184,7 +188,35 @@
 
 
 
+@media only screen and (max-width: 1560px){
+   .whyChooseUs {
+    width: 100%;
+    height: 130vh;
+  }
+  
+  .whyChooseUs .container {
+    width: 70%;
+    height: 100vh;
+  }
+   .whyChooseUs .section1 {
+    width: 85%;
+    height: 70vh;
+  }
 
+  .whyChooseUs .section1 .col1 {
+    width: 50%;
+    height: 70vh;
+  }
+   .whyChooseUs .section1 .col2 {
+    width: 50%;
+    height: 70vh;
+  }
+    .whyChooseUs .container .section1 .col2 .txtHd1 {
+      height: 65vh;
+      position: relative;
+      /* top: 10px; */
+    }
+}
 
 
 
@@ -197,75 +229,46 @@
 
   .whyChooseUs {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    height: 110vh;
   }
 
 
   .whyChooseUs .container {
     width: 70%;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    background-color: #9933CC;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+    height: 85vh;
   }
   
   .whyChooseUs .section1 {
     width: 85%;
     height: 55vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #b5a6bd; */
-    gap: 20px;
-    border-radius: 10px;
-    position: relative;
-    left: 10px;
   }
 
   .whyChooseUs .col1 {
     width: 50%;
     height: 55vh;
-    object-fit: cover;
-    border-radius: 10px;
-    background-color: #c93131;
+    background-position: center;
   }
 
-  .whyChooseUs .col1 img {
+  /* .whyChooseUs .col1 img {
     width: 100%;
     height: 55vh;
     border-radius: 10px;
-  }
+  } */
 
   .whyChooseUs .col2 {
     width: 50%;
     height: 55vh;
-    object-fit: cover;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
   }
 
   .whyChooseUs .section1 .col2 .txtHd {
     width: 100%;
     height: 40px;
-    position: relative;
+    /* position: relative;
     border: none;
     background-color: white;
     border-radius: 10px;
     padding: 10px;
-    /* border-bottom: 1px solid whitesmoke; */
-    top: 0px;
+    top: 0px; */
   }
   
   .whyChooseUs .section1 .col2 .txtHd h1 {
@@ -278,13 +281,6 @@
   .whyChooseUs .section1 .col2 .txtHd1 {
     width: 100%;
     height: 60vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 0px;
-    gap: 12px;
-    padding: 10px;
-    border-bottom: 1px solid whitesmoke;
   }
 
   .whyChooseUs .section1 .col2 .txtHd1 .txt1 h1 {
@@ -353,71 +349,39 @@
   .whyChooseUs {
     width: 100%;
     height: 110vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
 
   .whyChooseUs .container {
     width: 80%;
     height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    background-color: #9933CC;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
   
   }
 
   .whyChooseUs .container .section1 {
     width: 90%;
     height: 70vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #b3a0e5; */
-    gap: 10px;
-    border-radius: 10px;
-    position: relative;
-    left: 0px;
-    /* padding: 10px; */
   }
 
   .whyChooseUs .col1 {
     width: 50%;
     height: 55vh;
-    object-fit: cover;
-    border-radius: 10px;
   }
 
   .whyChooseUs .col1 img {
     width: 100%;
     height: 55vh;
-    border-radius: 10px;
   }
 
   .whyChooseUs .col2 {
     width: 50%;
     height: 55vh;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    /* padding: 10px; */
   }
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 25px;
     color: black;
     font-weight: 700;
-    position: relative;
-    /* top: 10px; */
   }
 }
 
