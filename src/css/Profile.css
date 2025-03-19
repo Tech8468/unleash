@@ -239,7 +239,7 @@
       align-items: center;
       justify-content: center;
       width: 85%;
-      height: 55vh;
+      height: 60vh;
       position: relative;
       top: -10px;
       gap: 10px;
@@ -247,7 +247,7 @@
   
     .profile .container .section1 .col1 {
       width: 70%;
-      height: 50vh;
+      height: 60vh;
       display: flex;
       flex-direction: column;
       padding: 20px;
@@ -274,19 +274,21 @@
     } */
 
     .profile .container .section1 .col1 .txt2{
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      /* padding: 0px; */
+
+      height: 55vh;
       padding-top: 0px !important; 
       padding-bottom: 0px !important;
-      border-left: 1px solid black;
-      border-right: 1px solid black;
-      overflow-y: auto;
+      overflow-y:scroll ;
   
     }
+
+    .profile .section1 .col1 .txt2 p {
+      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+    }
+  
   
   
   
@@ -329,26 +331,13 @@
     .profile {
       width: 100%;
       height: 110vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #d0b6fa;
     }
 
 
     .profile .container {
       width: 80%;
       height: 80vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       gap: 10px;
-      position: relative;
-      background-color: #9933CC;
-      border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     
     }
 
@@ -361,10 +350,6 @@
 
 
     .profile .section1 {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
       width: 90%;
       height: 50vh;
       position: relative;
@@ -376,21 +361,13 @@
     .profile .container .section1 .col1 {
       width: 80%;
       height: 45vh;
-      display: flex;
-      flex-direction: column;
       padding: 10px;
-      border-radius: 10px;
       gap: 16px;
     }
 
     .profile .section1 .col1 .txt2{
       width: 100%;
       height: 50vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
       position: relative;
       top: -10px;
       gap: 10px;
@@ -413,21 +390,12 @@
     .profile .section1 .col2 {
       width: 40%;
       height: 50vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
       /* border-radius: 10px; */
     }
   
     .profile .section1 .col2 img {
       width: 110%;
       height: 40vh;
-      object-fit: cover;
-      border-radius: 10px;
-      background-color: #f5f5f5;
     }
 
 
@@ -438,26 +406,14 @@
     .profile {
       width: 100%;
       height: 110vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #d0b6fa;
     }
 
 
     .profile .container {
       width: 90%;
       height: 80vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
       gap: 10px;
       position: relative;
-      background-color: #9933CC;
-      border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     
     }
 
@@ -476,10 +432,6 @@
     }
   
     .profile .container .section1 {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
       width: 90%;
       height: 50vh;
       position: relative;
@@ -490,11 +442,7 @@
     .profile .section1 .col1 {
       width: 45%;
       height: 45vh;
-      display: flex;
-      flex-direction: column;
       padding: 11px;
-      border-radius: 10px;
-      background-color: transparent;
       gap: 15px;
     }
   

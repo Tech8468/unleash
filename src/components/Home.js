@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-// import Pix1 from "./img/why-choose-v1-img1 1.png";
+import Pix1 from "./img/unleash logo white (1).png";
 
 // import Pix2 from "./img/counselor-and-happy-couple-after-effective-marital-6GBE9L5 1.png";
 
@@ -16,7 +16,8 @@ function Home() {
       <div className="section1">
         {/* <div className="background"> */}
         <div className="imgCover"></div>
-        <div className="coverTxt">
+        <div className="txtCover">
+        <img src={Pix1} alt="" className="Img-1" />
           <h1>Empowering Lives, Transforming Future</h1>
         </div>
         {/* </div> */}

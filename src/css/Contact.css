@@ -544,10 +544,6 @@
     .contact .registerForm{
       width: 80%;
       height: 70vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
       gap: 20px;
       /* background-color: #d89f9f; */
       border-radius: 5px;
@@ -556,10 +552,6 @@
     .contact .registerForm .container {
       width: 90%;
       height: 55vh;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
       gap: 20px;
     }
 
@@ -570,13 +562,7 @@
    .contact .registerForm{
       width: 90%;
       height: 70vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
       gap: 20px;
-      background-color: #9933CC;
-      border-radius: 10px;
     }
 }
 
