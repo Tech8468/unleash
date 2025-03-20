@@ -15,7 +15,7 @@ function Home() {
     <div className="hBanner">
       <div className="section1">
         {/* <div className="background"> */}
-        <div className="imgCover"></div>
+        {/* <div className="imgCover"></div> */}
         <div className="txtCover">
         <img src={Pix1} alt="" className="Img-1" />
           <h1>Empowering Lives, Transforming Future</h1>

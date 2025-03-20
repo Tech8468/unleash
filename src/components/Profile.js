@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-import Pix1 from "./img/doyinajayi.jpeg";
+import Pix1 from "./img/da-4.png";
 
 function Profile() {
   return (
@@ -36,11 +36,13 @@ function Profile() {
             </div>
             {/* </div> */}
           </div>
-          <div className="name">
+          {/* <div className="name">
             <h1>Doyin Ajayi</h1>
-          </div>
+          </div> */}
           <div className="col2">
+          <h1 className="name">Doyin Ajayi</h1>
             <img src={Pix1} alt="" className="Img-1" />
+            
           </div>
         </div>
       </div>

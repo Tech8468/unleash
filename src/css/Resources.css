@@ -96,7 +96,7 @@
   }
 
   .resources .section1 .col1 .grid1 button{
-    width: 30%;
+    width: 100%;
     padding: 10px;
     background-color: #d0b6fa;
     color: #333;
@@ -140,7 +140,7 @@
   }
 
   .resources .section1 .col1 .grid2 button{
-    width: 30%;
+    width: 100%;
     padding: 10px;
     background-color: #d0b6fa;
     color: black;
@@ -180,7 +180,7 @@
   }
 
   .resources .section1 .col1 .grid3 button{
-    width: 30%;
+    width: 100%;
     padding: 10px;
     background-color: #d0b6fa;
     color: black;
@@ -310,7 +310,7 @@
     } */
   
 
-    .resources .section1 .col1 .grid1 button{
+    /* .resources .section1 .col1 .grid1 button{
       width: 40%;
       padding: 10px;
       background-color: #d0b6fa;
@@ -322,9 +322,9 @@
       font-size: 12px;
       position: relative;
       top: 20px;
-    }
+    } */
 
-    .resources .section1 .col1 .grid2 button{
+    /* .resources .section1 .col1 .grid2 button{
       width: 40%;
       padding: 10px;
       background-color: #d0b6fa;
@@ -336,9 +336,9 @@
       font-size: 12px;
       position: relative;
       top: 20px;
-    }
+    } */
 
-    .resources .section1 .col1 .grid3 button{
+    /* .resources .section1 .col1 .grid3 button{
       width: 40%;
       padding: 10px;
       background-color: #d0b6fa;
@@ -350,7 +350,7 @@
       font-size: 12px;
       position: relative;
       top: 20px;
-    }
+    } */
   
   
   
@@ -453,7 +453,7 @@
     font-weight: 300;
   }
 
-  .resources .section1 .col1 .grid1 button{
+  /* .resources .section1 .col1 .grid1 button{
     width: 50%;
     padding: 10px;
     background-color: #9933CC;
@@ -494,7 +494,90 @@
     font-size: 12px;
     position: relative;
     top: 20px;
+  } */
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .resources .section1 .col1{
+    width: 90%;
+    height: 50vh;
+    /* flex-wrap: wrap; */
+    /* display: block; */
+    /* background-color: #333; */
   }
+  
+  .resources .section1 .col1 .Img-1{
+    width: 100%;
+    height: 25vh;
+
+  }
+
+  .resources .section1 .col1 .grid1{
+    width: 35%;
+  }
+
+  .resources .section1 .col1 .grid2{
+    width: 35%;
+  }
+
+  .resources .section1 .col1 .grid3{
+    width: 35%;
+  }
+
+  .resources .section1 .col1 .grid2 p{
+    position: absolute;
+    top: 63px;
+  }
+
+  .resources .section1 .col1 .grid3 p{
+    position: absolute;
+    top: 63px;
+  }
+
+
+
+  /* .resources .section1 .col1 .grid1 button{
+    width: 60%;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    right: opx;
+  } */
+
+
+  /* .resources .section1 .col1 .grid2 button{
+    width: 60%;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    right: opx;
+  } */
+
+
+  /* .resources .section1 .col1 .grid3 button{
+    width: 60%;
+    font-size: 11px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    right: opx;
+  } */
+
+  
 
 }
 

@@ -459,6 +459,38 @@
     } */
   }
 
+  @media only screen and (max-width: 600px){
+
+    .blog {
+      width: 100%;
+      height: 140vh;
+    }
+    
+    .blog .container {
+      width: 90%;
+      height: 120vh;
+      gap: 20px;
+      position: relative;
+    
+    }
+
+    .blog .container .section1 {
+      width: 90%;
+      height: 90vh;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .blog .section1 .col1 {
+      width: 100%;
+      height: 40vh;
+      gap: 25px;
+      /* background-color: transparent; */
+    }
+
+  }
+
 
 
 

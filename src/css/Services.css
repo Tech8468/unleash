@@ -530,6 +530,110 @@
 
 
 
+@media only screen and (max-width: 600px){
+  .services .container .section1 {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top: -60px;
+    gap: 50px;
+    padding: 20px;
+    /* background-color: #949394; */
+  }
+
+  .services .section1 .col1 {
+    width: 100%;
+    height: 60vh;
+    background-color: transparent;
+    gap: 15px;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    overflow-y: hidden;
+  }
+
+  .services .section1 .col1 .txt1 h1 {
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt1 p {
+    color: wheat;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt2 h1 {
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt2 p {
+    color: wheat;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt3 h1 {
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt3 p {
+    color: wheat;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt4 h1 {
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt4 p {
+    color: wheat;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col1 .txt5 h1 {
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+
+  .services .section1 .col1 .txt5 p {
+    color: wheat;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+  }
+
+  .services .section1 .col2 {
+    /* width: 100%;
+      height: 45vh;
+      border-radius: 10px;
+      position: relative;
+      top: 20px; */
+    border-radius: 0px;
+
+    display: none;
+  }
+
+}
+
+
+
+
 
 
 
