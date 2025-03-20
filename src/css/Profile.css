@@ -724,7 +724,7 @@
       font-size: 15px;
       position: relative;
       top: 120px;
-      left: -90px;
+      left: -80px;
     }
 
   
@@ -744,7 +744,7 @@
   @media only screen and (max-width: 375px) {
     .profile {
       width: 100%;
-      height: 120vh;
+      height: 140vh;
     }
 
     /* .profile:before {
@@ -757,7 +757,7 @@
     } */
      .profile .container {
       width: 90%;
-      height: 110vh;
+      height: 130vh;
     
     }
     .profile .section0 {
@@ -781,7 +781,7 @@
       align-items: center;
       justify-content: center; */
       width: 90%;
-      height: 90vh;
+      height: 110vh;
       position: relative;
       /* top: 50px; */
       /* gap: 50px; */
@@ -790,9 +790,14 @@
       /* background-color: transparent; */
     }
 
+    .profile .container .section1 .col1{
+      /* background-color: #949394; */
+      height: 65vh;
+    }
+
     .profile .container .section1 .col1 .txt2{
       width: 100%;
-      height: 50vh;
+      height: 60vh;
       position: relative;
       top: -20px;
       gap: 10px;
@@ -804,10 +809,10 @@
 
     .profile .container .section1 .col2 {
       width: 100%;
-      height: 40vh;
+      height: 30vh;
       display: flex;
       position: relative;
-      top: -70px;
+      top: -20px;
       background-color: #d0b6fa;
     }
 
@@ -821,7 +826,7 @@
   
     .profile .section1 .col2 img {
       width: 60%;
-      height: 40vh;
+      height: 50vh;
     }
 
     .profile .container .section1 .col2 h1{
@@ -906,11 +911,9 @@
     .profile .container .section1 .col2 {
       width: 100%;
       height: 30vh;
-      /* display: flex;
+      display: flex;
       position: relative;
-      top: -0px;
-      background-color: #d0b6fa;
-      background-color: transparent; */
+      top: -60px;
     }
   
     .profile .section1 .col2 img {

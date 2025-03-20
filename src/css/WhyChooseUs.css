@@ -622,7 +622,7 @@
 
   .whyChooseUs {
     width: 100%;
-    height: 90vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -631,7 +631,7 @@
 
   .whyChooseUs .container {
     width: 80%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -646,36 +646,52 @@
 
   .whyChooseUs .container .section1 {
     width: 100%;
-    height: 80vh;
-
+    height: 90vh;
     background-color: transparent;
     gap: 5px;
     padding: 5px;
     border-radius: 10px;
   }
 
-  /* .whyChooseUs .section1:before {
+  .whyChooseUs .container .section1:before {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 80vh;
+    width: 76%;
+    height: 90vh;
     border-radius: 10px;
-    background: rgba(63, 62, 62, 0.884);
-  } */
+    background: rgba(65, 63, 63, 0.884);
+  }
 
   .whyChooseUs .section1 .col1 {
     display: none;
   }
 
-  .whyChooseUs .col2 {
-    width: 100%;
-    height: 55vh;
+
+  .whyChooseUs .container .section1 .col2 {
+    width: 80%;
+    height: 60vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
-    padding: 10px;
+    /* padding: 20px; */
+    /* background-color: #d0b6fa; */
+    background: transparent;
+    border-radius: 10px;
+
   }
+
+  .whyChooseUs .container .section1 .col2::before {
+    content: "";
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    background: rgba(99, 80, 99, 0.2);
+    border-radius: 10px;
+  }
+
 
   .whyChooseUs .section1 .col2 .txtHd {
     position: relative;
@@ -684,7 +700,7 @@
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 20px;
-    color: black;
+    color: wheat;
     font-weight: 500;
     position: relative;
     top: 0px;
@@ -762,7 +778,7 @@
 
   .whyChooseUs {
     width: 100%;
-    height: 90vh;
+    height:120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -771,7 +787,7 @@
 
   .whyChooseUs .container {
     width: 80%;
-    height: 80vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -784,6 +800,55 @@
   
   }
 
+  .whyChooseUs .container .section1 {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .whyChooseUs .container .section1:before {
+    content: "";
+    position: absolute;
+    width: 76%;
+    height: 100vh;
+    border-radius: 10px;
+    background: rgba(65, 63, 63, 0.884);
+  }
+
+  .whyChooseUs .section1 .col1 {
+    display: none;
+  }
+
+
+  .whyChooseUs .container .section1 .col2 {
+    width: 80%;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 20px; */
+    /* background-color: #d0b6fa; */
+    background: transparent;
+    border-radius: 10px;
+
+  }
+
+  .whyChooseUs .container .section1 .col2::before {
+    content: "";
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    background: rgba(99, 80, 99, 0.2);
+    border-radius: 10px;
+  }
+
+
   .whyChooseUs .container .section1 .col2 .txtHd {
     position: relative;
     top: -40px;
@@ -791,7 +856,7 @@
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 20px;
-    color: black;
+    color: wheat;
     font-weight: 500;
     position: relative;
     top: 0px;
@@ -808,7 +873,7 @@
 
   .whyChooseUs {
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -817,7 +882,7 @@
 
   .whyChooseUs .container {
     width: 80%;
-    height: 90vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -830,6 +895,55 @@
   
   }
 
+  .whyChooseUs .container .section1 {
+    width: 100%;
+    height: 110vh;
+    background-color: transparent;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .whyChooseUs .container .section1:before {
+    content: "";
+    position: absolute;
+    width: 76%;
+    height: 110vh;
+    border-radius: 10px;
+    background: rgba(65, 63, 63, 0.884);
+  }
+
+  .whyChooseUs .section1 .col1 {
+    display: none;
+  }
+
+
+  .whyChooseUs .container .section1 .col2 {
+    width: 80%;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 20px; */
+    /* background-color: #d0b6fa; */
+    background: transparent;
+    border-radius: 10px;
+
+  }
+
+  .whyChooseUs .container .section1 .col2::before {
+    content: "";
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    background: rgba(99, 80, 99, 0.2);
+    border-radius: 10px;
+  }
+
+
   .whyChooseUs .container .section1 .col2 .txtHd {
     position: relative;
     top: -80px;
@@ -837,7 +951,7 @@
 
   .whyChooseUs .section1 .col2 .txtHd h1 {
     font-size: 20px;
-    color: black;
+    color: wheat;
     font-weight: 500;
     position: relative;
     top: 0px;
