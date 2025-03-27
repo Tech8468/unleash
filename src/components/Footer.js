@@ -49,10 +49,10 @@ function Footer() {
             </ul>
           </div> */}
           <div className="footerSocial">
-            <Link to="/">
+            <Link to="https://www.instagram.com/unlea.shcoachingcounselling?igsh=MThvOWJtZWVndnV0Zg%3D%3D&utm_source=qr">
               <FaInstagram className="instagram" />
             </Link>
-            <Link to="/">
+            <Link to="https://www.facebook.com/profile.php?id=61567378949133&mibextid=ZbWKwL">
               <RiFacebookCircleLine className="facebook" />
             </Link>
             <Link to="/">

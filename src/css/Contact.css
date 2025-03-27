@@ -26,7 +26,7 @@
     width: 70%;
     height: 70vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* position: relative;
@@ -41,14 +41,14 @@
 
   .contact .registerForm .container {
     width: 85%;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20px;
-  
   }
+
   
   .contact .registerForm .col1{
     width: 50%;
@@ -338,6 +338,27 @@
 
 
 
+  .contact .registerForm .board{
+    width: 85%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    gap: 20px;
+  }
+
+  .contact .registerForm .board a{
+    text-decoration: none;
+    font-style: italic;
+    color: red;
+  }
+   .contact .registerForm .board a:hover{
+    color: blue;
+    cursor: pointer;
+  }
 
 
 
@@ -398,15 +419,12 @@
 
     .contact{
       width: 100%;
-      height: 110vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      height: 140vh;
     }
   
     .contact .registerForm{
       width: 70%;
-      height: 70vh;
+      height: 120vh;
 
 
     }
@@ -537,16 +555,19 @@
 
     }
   
+
+    .contact .registerForm .board{
+      width: 85%;
+      height: 30vh;
+    }
+  
   
   }
 
   @media only screen and (max-width: 1024px){
     .contact .registerForm{
       width: 80%;
-      height: 70vh;
-      gap: 20px;
-      /* background-color: #d89f9f; */
-      border-radius: 5px;
+      height: 120vh;
     }
 
     .contact .registerForm .container {
@@ -555,15 +576,62 @@
       gap: 20px;
     }
 
+    .contact .registerForm .board{
+      width: 90%;
+      height: 30vh;
+    }
+  
+
   
   }
 
+
+
 @media only screen and (max-width: 768px){
+
+  .contact{
+    width: 100%;
+    height: 190vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f2f2f2; */
+  }
+
+
    .contact .registerForm{
       width: 90%;
-      height: 70vh;
-      gap: 20px;
+      height: 170vh;
+      gap: 40px;
     }
+
+    
+
+    .contact .registerForm .container {
+      width: 90%;
+      height: 120vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      /* background-color: #5c6268; */
+    }
+
+    .contact .registerForm .container .col1{
+      width: 100%;
+      height: 60vh;
+    }
+  
+    .contact .registerForm .container .col2{
+      /* background-color: #d0b6fa; */
+  
+      width: 100%;
+      height: 60vh;
+    }
+  
+  
+  
 }
 
 
@@ -571,7 +639,7 @@
 
   .contact{
     width: 100%;
-    height: 130vh;
+    height: 180vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -579,13 +647,13 @@
   }
 
   .contact .registerForm{
-    width: 80%;
-    height: 110vh;
+    width: 90%;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     background-color: #9933CC;
     border-radius: 10px;
     padding: 10px;
@@ -593,12 +661,12 @@
 
   .contact .registerForm .container {
     width: 90%;
-    height: 70vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0px;
+    gap: 20px;
     /* background-color: #5c6268; */
   }
 
@@ -646,13 +714,29 @@
     right: 0px;
   }
 
-  .contact .registerForm .col2 form button:hover{
+  .contact .registerForm .board{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    /* top: 70px; */
+  }
+
+  .contact .registerForm .board p{
+    text-align: justify;
+  }
+
+
+  /* .contact .registerForm .col2 form button:hover{
     background-color: #5f0650;
     font-weight: bold;
     transition: background-color 0.3s ease;
     transition: transform 0.3s ease;
     transform: scale(1.05);
-  }
+  } */
 
 
 
@@ -660,9 +744,19 @@
 
 @media only screen and (max-width: 375px){
 
+  .contact{
+    width: 100%;
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f2f2f2; */
+  }
+
+
   .contact .registerForm{
     width: 80%;
-    height: 100vh;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -686,13 +780,49 @@
 
   }
 
+  .contact .registerForm .col1 .row2{
+    display: block;
+    gap: 0;
+    position: relative;
+    left: 0px;
+  }
+
+  .contact .registerForm .col1 .row2 p{
+    font-size: 13px;  
+    }
+    
+
+  .contact .registerForm .col1 .row3{
+    display: block;
+    gap: 0;
+    position: relative;
+    left: 0px;
+  }
+
+  .contact .registerForm .col1 .row3 p{
+    font-size: 13px;  
+    }
+    
+  
+  
+
 }
 
 @media only screen and (max-width: 320px){
 
+  .contact{
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f2f2f2; */
+  }
+
+
   .contact .registerForm{
     width: 80%;
-    height: 110vh;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -705,34 +835,29 @@
 
   .contact .registerForm .container {
     width: 90%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
+    height: 100vh;
+    /* gap: 0px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px; */
     background-color: #f8f9fa;
   }
 
   .contact .registerForm .container .col1{
     width: 100%;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 0px;
+    height: 50vh;
     background-color: transparent;
     gap: 10px;
+    /* background-color: aqua; */
 
   }
 
   .contact .registerForm .container .col2{
+    width: 110%;
+
     background-color: transparent;
     gap: 0px;
     border: 1px solid #9933CC;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 
   }
 
@@ -767,7 +892,24 @@ font-size: 11px;
   }
 
   .contact .registerForm .col1 .row3 p{
-font-size: 11px;  }
+font-size: 11px;  
+}
+
+.contact .registerForm .board{
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  /* top: 70px; */
+}
+
+.contact .registerForm .board p{
+  font-size: 12px;
+  text-align: center;
+}
 
 
 

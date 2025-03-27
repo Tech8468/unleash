@@ -694,44 +694,51 @@
 
 
 
+@media only screen and (max-width: 461px){
+  .aboutUs {
+   height: 110vh;
+ }
+ 
+ .aboutUs .container {
+   height: 80vh;
+ }
+ 
+ .aboutUs .container .section1 {
+   height: 150vh;
+ }
+
+ .aboutUs .section1 .col2 .tab2 {
+  width: 100%;
+  position: relative;
+  /* left: -10px; */
+  top: -30px;
+}
+
+}
+
+
+
+
+
 
 
 
 @media (max-width: 425px){
 
   .aboutUs {
-    max-width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* gap: 10px; */
-    /* background-color: #a81590; */
+   width: 100%;
+    height: 130vh;
   }
 
   .aboutUs .container {
-    max-width: 80%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+    width: 80%;
+    height: 110vh;
   }
 
   .aboutUs .container .section1 {
-    max-width: 90%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    left: 0px;
-    /* background-color: #a81590; */
+    width: 90%;
+    height: 100vh;
+
   }
 
 
@@ -741,15 +748,15 @@
   }
 
   .aboutUs .container .section1 .col2 {
-    max-width: 100%;
-    min-height: 90vh;
-    display: flex;
+    width: 100%;
+    height: 90vh;
+    /* display: flex;
     flex-direction: column;
     gap: 0px;
     align-items: center;
     justify-content: center;
     position: relative;
-    border-radius: 10px;
+    border-radius: 10px; */
   }
 
   .aboutUs .section1 .col2 .tab1{
@@ -810,34 +817,62 @@
  
 }
 
+
+@media only screen and (max-width: 399px){
+   .aboutUs {
+    height: 130vh;
+  }
+  
+  .aboutUs .container {
+    height: 110vh;
+  }
+  
+  .aboutUs .container .section1 {
+    height: 120vh;
+  }
+}
+
+
+
+@media only screen and (max-width: 378px){
+  .aboutUs {
+    height: 130vh;
+  }
+  
+  .aboutUs .container {
+    height: 120vh;
+  }
+  
+  .aboutUs .container .section1 {
+    height: 110vh;
+  }
+}
+
+
+
 @media only screen and (max-width: 375px){
 
   .aboutUs {
-    max-width: 100%;
-    height: 110vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* gap: 10px; */
-    /* background-color: #a81590; */
+    width: 100%;
+    height: 120vh;
   }
 
   .aboutUs .container {
     width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+    height: 110vh;
   }
+
+  .aboutUs .container .section1 {
+    width: 90%;
+    height: 100vh;
+    /* background-color: #333; */
+  }
+
 
 
   .aboutUs .container .section1 .col2 {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -865,46 +900,56 @@
 
 }
 
+@media only screen and (max-width: 333px){
+  .aboutUs {
+   height: 140vh;
+ }
+ 
+ .aboutUs .container {
+   height: 130vh;
+ }
+ 
+ .aboutUs .container .section1 {
+   height: 120vh;
+ }
+
+ .aboutUs .container .section1 .col2 {
+  width: 100%;
+  height: 110vh;
+}
+
+.aboutUs .section1 .col2 .tab2 {
+  position: relative;
+  top: 30px;
+  /* border-bottom: 1px solid #a81590; */
+}
+
+
+}
+
+
 @media only screen and (max-width: 320px){
 
   .aboutUs {
     width: 100%;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* gap: 10px; */
-    /* background-color: #a81590; */
+    height: 130vh;
   }
 
   .aboutUs .container {
     width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(245, 243, 243, 0.2), 0 6px 20px 0 rgba(243, 242, 242, 0.19);
+    height: 120vh;
   }
 
   .aboutUs .container .section1 .col2 {
     width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    border-radius: 10px;
+    height: 110vh;
   }
 
   .aboutUs .section1 .col2 .tab1 {
     width: 100%;
     height: 370px;
     position: relative;
-    top: 0px;
+    top: -20px;
     display: block;
     padding: 20px;
   }
@@ -913,7 +958,7 @@
     /* width: 100%;
     height: 370px; */
     position: relative;
-    top: -30px;
+    top: 30px;
     display: block;
     padding: 20px;
   }

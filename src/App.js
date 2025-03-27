@@ -9,6 +9,8 @@ import "./css/Resources.css";
 import "./css/Footer.css";
 import "./css/Profile.css";
 import "./css/Blog.css";
+import "./css/Program.css";
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";

@@ -8,6 +8,7 @@ import Resources from "../Resources";
 import WhyChooseUs from "../WhyChooseUs";
 import Profile from "../Profile";
 import Blog from "../Blog";
+import Program from "../Program";
 import Contact from "../Contact";
 
 const sectionVariants = {
@@ -74,6 +75,14 @@ function HomePage() {
         variants={sectionVariants}
       >
         <Blog />
+      </motion.div>
+      <motion.div
+        id="program"
+        initial="hidden"
+        whileInView="visible"
+        variants={sectionVariants}
+      >
+        <Program />
       </motion.div>
       <motion.div
         id="contact"
