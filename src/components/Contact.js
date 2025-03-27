@@ -50,7 +50,7 @@ function Contact() {
       setErr(false);
     }
 
-    // emailjs.sendForm('service_id' 'template_id', e.target, 'public_key');
+    emailjs.sendForm('service_k7rwmag', 'template_id', e.target, 'public_key');
     alert("submit")
   };
 
@@ -95,6 +95,7 @@ function Contact() {
                   <input
                     type="text"
                     placeholder="Full Name"
+                    name="email_from"
                     value={userData.fname}
                     onChange={(e) =>
                       setUserData({ ...userData, fname: e.target.value })
@@ -123,6 +124,7 @@ function Contact() {
                   <input
                     type="text"
                     placeholder="Email Address"
+                    name="email_from"
                     value={userData.email}
                     onChange={(e) =>
                       setUserData({ ...userData, email: e.target.value })
