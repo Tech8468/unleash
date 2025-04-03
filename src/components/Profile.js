@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
-import Pix1 from "./img/da-4.png";
+import Pix1 from "./img/da-31.png";
 
 function Profile() {
   return (

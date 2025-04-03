@@ -50,7 +50,7 @@ function Contact() {
       setErr(false);
     }
 
-    emailjs.sendForm('service_k7rwmag', 'template_id', e.target, 'public_key');
+    // emailjs.sendForm('service_k7rwmag', 'template_id', e.target, 'public_key');
     alert("submit")
   };
 

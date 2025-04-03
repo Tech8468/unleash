@@ -5,8 +5,8 @@ import React from "react";
 
 // import { Link } from "react-router-dom";
 
-import Pix1 from "./img/marriage-family-therapy.jpg";
-import Pix2 from "./img/mental-therapy.jpg";
+import Pix1 from "./img/mental-therapy.jpg";
+import Pix2 from "./img/marriage-family-therapy.jpg";
 import Pix3 from "./img/substance-use-therapy.jpg";
 import Pix4 from "./img/black-girl-therapy.jpg";
 import Pix5 from "./img/black-man-presented-engagement-ring-his-girlfriend-restaurant.jpg";
@@ -47,25 +47,26 @@ function Services() {
           </div> */}
           <div className="row2">
             {/* <Slider {...settings}> */}
+              
               <div className="col">
                 <div className="box">
                   <img src={Pix1} alt="" className="Img-1" />
-                  <h2>Marriage & Family Therapy</h2>
+                  <h2>Mental Health & Emotional Wellness Counseling</h2>
                   <p>
-                    Helping couples and families strengthen their relationships,
-                    improve communication, and resolve conflicts in a healthy,
-                    lasting way.
+                    Supporting individuals struggling with anxiety, depression,
+                    trauma, and other mental health challenges through therapy
+                    that fosters healing and personal development.
                   </p>
                 </div>
               </div>
               <div className="col">
                 <div className="box">
                   <img src={Pix2} alt="" className="Img-1" />
-                  <h2>Mental Health & Emotional Wellness Counseling</h2>
+                  <h2>Marriage & Family Therapy</h2>
                   <p>
-                    Supporting individuals struggling with anxiety, depression,
-                    trauma, and other mental health challenges through therapy
-                    that fosters healing and personal development.
+                    Helping couples and families strengthen their relationships,
+                    improve communication, and resolve conflicts in a healthy,
+                    lasting way.
                   </p>
                 </div>
               </div>

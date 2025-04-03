@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Pix1 from "./img/Book-3.jpeg";
-import Pix2 from "./img/Book-2.jpeg";
-import Pix3 from "./img/Book-1.jpeg";
+import Pix2 from "./img/Book-1.jpeg";
+import Pix3 from "./img/Book-2.jpeg";
 
 function Resources() {
   return (
@@ -23,14 +23,15 @@ function Resources() {
             </Link>
           </div>
           <div className="grid2">
-            <img src={Pix2} alt="" className="Img-1" />
-            <p>Coming Soon</p>
+          <img src={Pix2} alt="" className="Img-1" />
+            
+            <p>Now Out</p>
             <Link to="">
-              <button>Pre-order</button>
+              <button>Order</button>
             </Link>
           </div>
           <div className="grid3">
-            <img src={Pix3} alt="" className="Img-1" />
+          <img src={Pix3} alt="" className="Img-1" />
             <p>Coming Soon</p>
             <Link to="">
               <button>Pre-order</button>
