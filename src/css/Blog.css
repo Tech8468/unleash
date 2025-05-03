@@ -530,7 +530,7 @@
 
     .blog .container {
       width: 80%;
-      height: 60vh;
+      height: 55vh;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -586,7 +586,7 @@
   
     .blog .container .section1 .col1 {
       width: 90%;
-      height: 40vh;
+      height: 35vh;
       display: flex;
       flex-direction: column;
       padding: 11px;
