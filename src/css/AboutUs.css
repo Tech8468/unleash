@@ -900,6 +900,35 @@
 
 }
 
+@media only screen and (max-width: 350px){
+  .aboutUs {
+   height: 140vh;
+ }
+ 
+ .aboutUs .container {
+   height: 130vh;
+ }
+ 
+ .aboutUs .container .section1 {
+   height: 120vh;
+ }
+
+ .aboutUs .container .section1 .col2 {
+  width: 100%;
+  height: 110vh;
+}
+
+.aboutUs .section1 .col2 .tab2 {
+  position: relative;
+  top: 30px;
+  /* border-bottom: 1px solid #a81590; */
+}
+  
+  
+  }
+
+
+
 @media only screen and (max-width: 333px){
   .aboutUs {
    height: 140vh;
@@ -927,6 +956,32 @@
 
 }
 
+
+@media only screen and (max-width: 329px){
+  .aboutUs {
+   height: 140vh;
+ }
+ 
+ .aboutUs .container {
+   height: 130vh;
+ }
+ 
+ .aboutUs .container .section1 {
+   height: 120vh;
+ }
+
+ .aboutUs .container .section1 .col2 {
+  width: 100%;
+  height: 110vh;
+}
+
+.aboutUs .section1 .col2 .tab2 {
+  position: relative;
+  top: 60px;
+  /* border-bottom: 1px solid #a81590; */
+}
+  
+  }
 
 @media only screen and (max-width: 320px){
 

@@ -26,7 +26,7 @@ function Resources() {
           <img src={Pix2} alt="" className="Img-1" />
             
             <p>Now Out</p>
-            <Link to="">
+            <Link to="https://selar.com/7920zf">
               <button>Order</button>
             </Link>
           </div>

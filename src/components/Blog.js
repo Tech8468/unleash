@@ -1,9 +1,55 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 // import Pix1 from "./img/doyinajayi.jpeg";
 
 function Blog() {
+  let settings ={
+    dots: true,
+    infinites: false,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+
+      },
+
+    ],
+  };
   return (
     <div className="blog">
       <div className="container">
@@ -11,6 +57,7 @@ function Blog() {
           <h1>Blog!</h1>
         </div>
         <div className="section1">
+          <Slider {...settings}>
           <div className="col1">
             {/* <div className="txtHd1"> */}
             <div className="txt1">
@@ -24,11 +71,7 @@ function Blog() {
               <p>
                 Self-love is one of the most talked-about concepts today. People
                 are encouraged to prioritize their well-being, embrace
-                self-care, and set boundaries. While this is essential for a
-                balanced life, there is a thin line between healthy self-love
-                and self-worship — an extreme form of self-centeredness where
-                personal desires, opinions, and emotions are placed above
-                everything else.
+                self-care, and set boundaries. 
               </p>
               <Link to="https://medium.com/@adedoyinhannah205/self-love-or-self-worship-what-am-i-doing-224db1634bf4">
                 <p className="read">Read more </p>
@@ -53,6 +96,7 @@ function Blog() {
               </Link>
             </div>
           </div>
+          </Slider>
         </div>
       </div>
     </div>
