@@ -67,8 +67,10 @@ function Footer() {
       <div className="copyright">
         <div className="copy">
           <p>
-            Copyright <PiCopyright className="cpy" /> 2025 Unleash Coaching &
-            Counseling. All rights reserved. Designed & Developed by Techit @ +2347066758468
+            Copyright <PiCopyright className="cpy" /> 2025 All rights reserved.
+          </p>
+          <p>
+          Designed & Developed by Techit @ +2347066758468
           </p>
         </div>
       </div>
