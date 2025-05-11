@@ -312,30 +312,30 @@
 @media (max-width: 425px) {
   .program {
     width: 100%;
-    height: 120vh;
+    height: 80vh;
   }
 
   .program .container {
     width: 75%;
-    height: 110vh;
+    height: 70vh;
   }
 
   .program .container .section1 {
     width: 90%;
-    height: 80vh;
-    /* background-color: #e6ddea; */
+    height: 50vh;
   }
 
   .program .section1 .row1 {
     width: 100%;
-    height: 10vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
     background-color: white;
     position: relative;
     top: 0px;
+    padding: 10px;
   }
 
   .program .section1 .row1 h1 {
@@ -345,9 +345,9 @@
 
   .program .container .section1 .row2 .col1 {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     background-position: center;
-    /* background-color: #333; */
+    background-color: #333;
   }
 
   .program .section1 .row2 .col1 img {
@@ -359,7 +359,7 @@
 @media only screen and (max-width: 375px) {
   .program {
     max-width: 100%;
-    height: 110vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -370,7 +370,7 @@
 
   .program .container {
     width: 80%;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;

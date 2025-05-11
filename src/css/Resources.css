@@ -99,14 +99,9 @@
     width: 100%;
     padding: 10px;
     background-color: #d0b6fa;
-    color: #333;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
   }
   
   .resources .section1 .col1 .grid1 button:hover{
@@ -117,6 +112,32 @@
     transform: scale(1.05);
     color: white;
   }
+
+  .resources .section1 .col1 .grid1 .btns{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+  }
+
+  .resources .section1 .col1 .grid1 button .selar{
+    width: 125px;
+    height: 15px;
+  }
+
+  .resources .section1 .col1 .grid1 button .selar2{
+    width: 125px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+  }
+
 
 
   .resources .section1 .col1 .grid2{
@@ -139,19 +160,45 @@
     font-weight: bold;
   }
 
+  .resources .section1 .col1 .grid2 .btns{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+  }
+
   .resources .section1 .col1 .grid2 button{
     width: 100%;
     padding: 10px;
     background-color: #d0b6fa;
-    color: black;
+    /* color: black; */
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
+    /* font-weight: bold;
+    font-size: 12px; */
+    /* position: relative;
+    top: 20px; */
   }
+
+  .resources .section1 .col1 .grid2 button .selar{
+    width: 125px;
+    height: 15px;
+  }
+
+  .resources .section1 .col1 .grid2 button .selar2{
+    width: 125px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+  }
+
 
   .resources .section1 .col1 .grid2 button:hover{
     background-color: #5f0650;
@@ -183,14 +230,14 @@
     width: 100%;
     padding: 10px;
     background-color: #d0b6fa;
-    color: black;
+    /* color: black; */
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
+    /* font-weight: bold;
     font-size: 12px;
     position: relative;
-    top: 20px;
+    top: 20px; */
   }
   
   .resources .section1 .col1 .grid3 button:hover{
@@ -201,10 +248,35 @@
     color: white;
   }
 
+  .resources .section1 .col1 .grid3 .btns{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+  }
+
+  .resources .section1 .col1 .grid3 button .selar{
+    width: 125px;
+    height: 15px;
+  }
+
+  .resources .section1 .col1 .grid3 button .selar2{
+    width: 125px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+  }
+
 
   .resources .section1 .col1 .Img-1{
     width: 100%;
-    height: 45vh;
+    height: 40vh;
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 
@@ -269,91 +341,324 @@
     .resources .section1 .col1{
       width: 90%;
       height: 60vh;
+      /* background-color: #b20000; */
+    }
+
+    .resources .section1 .col1 .Img-1{
+      width: 100%;
+      height: 35vh;
+      border-radius: 10px;
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  
+    }
+  
+
+    .resources .section1 .col1 .grid1 button{
+      width: 240px;
+      padding: 10px;
+      background-color: #d0b6fa;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  
+
+    .resources .section1 .col1 .grid1 .btns{
+
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      top: 10px;
+    }
+
+    .resources .section1 .col1 .grid1 button .selar{
+      width: 50%;
+      height: 20px;
+    }
+  
+    .resources .section1 .col1 .grid1 button .selar2{
+      width: 50%;
+      height: 20px;
+      position: relative;
+      top: 5px;
+    }
+
+
+    .resources .section1 .col1 .grid2 button{
+      width: 240px;
+      padding: 10px;
+      background-color: #d0b6fa;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  
+
+    .resources .section1 .col1 .grid2 .btns{
+
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      top: 10px;
+    }
+
+    .resources .section1 .col1 .grid2 button .selar{
+      width: 50%;
+      height: 20px;
+    }
+  
+    .resources .section1 .col1 .grid2 button .selar2{
+      width: 50%;
+      height: 20px;
+      position: relative;
+      top: 5px;
+    }
+
+    .resources .section1 .col1 .grid3 button{
+      width: 240px;
+      padding: 10px;
+      background-color: #d0b6fa;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  
+
+    .resources .section1 .col1 .grid3 .btns{
+
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      top: 10px;
+    }
+
+    .resources .section1 .col1 .grid3 button .selar{
+      width: 50%;
+      height: 20px;
+    }
+  
+    .resources .section1 .col1 .grid3 button .selar2{
+      width: 50%;
+      height: 20px;
+      position: relative;
+      top: 5px;
     }
   
   }
 
+    @media only screen and (max-width: 1200px){
+      .resources .section1 {
+        width: 70%;
+        height: 80vh;
+      }
+  
+      .resources .section1 .col1{
+        width: 90%;
+        height: 60vh;
+        /* gap: 10px; */
+      }
+  
+      .resources .section1 .col1 .Img-1{
+        width: 100%;
+        height: 35vh;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    
+      }
+
+      .resources .section1 .col1 .grid1 button{
+        width: 220px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .resources .section1 .col1 .grid2 button{
+        width: 220px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+
+      .resources .section1 .col1 .grid3 button{
+        width: 220px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+  
+    }
+
+    @media only screen and (max-width: 1140px){
+      .resources .section1 .col1{
+        width: 90%;
+        height: 50vh;
+        /* background-color: #b20000; */
+        /* gap: 10px; */
+      }
+
+
+      .resources .section1 .col1 .Img-1{
+        width: 100%;
+        height: 30vh;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    
+      }
+
+
+      .resources .section1 .col1 .grid1 button{
+        width: 210px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .resources .section1 .col1 .grid2 button{
+        width: 210px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+
+      .resources .section1 .col1 .grid3 button{
+        width: 210px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+
+    @media only screen and (max-width: 1040px){
+      
+      .resources .section1 .col1{
+        width: 90%;
+        height: 50vh;
+        /* background-color: #b20000; */
+        /* gap: 10px; */
+      }
+
+
+      .resources .section1 .col1 .Img-1{
+        width: 100%;
+        height: 28vh;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    
+      }
+
+
+      .resources .section1 .col1 .grid1 button{
+        width: 190px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .resources .section1 .col1 .grid2 button{
+        width: 190px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+
+      .resources .section1 .col1 .grid3 button{
+        width: 190px;
+        padding: 10px;
+        background-color: #d0b6fa;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+    }
+
+
   @media only screen and (max-width: 1024px){
+    
     .resources .section1 {  
       width: 80%;
       height: 80vh;
-      /* border-bottom: 1px solid #9933CC; */
-      gap: 10px;
     }
-    .resources .section0 {
+
+    .resources .section1 .section0{
       width: 90%;
-      height: auto;
-      position: relative;
-      padding: 10px;
-      /* top: 20px; */
-      /* left: 310px; */
     }
-  
+
 
     .resources .section1 .col1{
-      width: 95%;
-      height: 60vh;
+      width: 90%;
+      height: 50vh;
       position: relative;
       gap: 20px;
+      /* background-color: #b20000; */
     }
 
+    .resources .section1 .col1 .grid1 button{
+      width: 200px;
+      padding: 10px;
+      background-color: #d0b6fa;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .resources .section1 .col1 .grid2 button{
+      width: 200px;
+      padding: 10px;
+      background-color: #d0b6fa;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+
+    .resources .section1 .col1 .grid3 button{
+      width: 200px;
+      padding: 10px;
+      background-color: #d0b6fa;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+
+
     
-    /* .resources .section1 {
-      width: 80%;
-      height: 70vh;
-      display: flex;  
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      border-bottom: 1px solid #9933CC;
-      gap: 10px;
-    } */
-  
-
-    /* .resources .section1 .col1 .grid1 button{
-      width: 40%;
-      padding: 10px;
-      background-color: #d0b6fa;
-      color: #333;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: 12px;
-      position: relative;
-      top: 20px;
-    } */
-
-    /* .resources .section1 .col1 .grid2 button{
-      width: 40%;
-      padding: 10px;
-      background-color: #d0b6fa;
-      color: #333;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: 12px;
-      position: relative;
-      top: 20px;
-    } */
-
-    /* .resources .section1 .col1 .grid3 button{
-      width: 40%;
-      padding: 10px;
-      background-color: #d0b6fa;
-      color: #333;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: 12px;
-      position: relative;
-      top: 20px;
-    } */
-  
-  
-  
   }
 
   @media only screen and (max-width: 768px){
@@ -401,7 +706,7 @@
 
   .resources .section1 .col1 .Img-1{
     width: 100%;
-    height: 35vh;
+    height: 25vh;
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 
@@ -409,174 +714,189 @@
 
 
 
-  .resources .section1 .col1 .grid1{
-    position: relative;
-    border-radius: 10px;
-  }
-
-  .resources .section1 .col1 .grid1 p{
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    background-color: #d0b6fa;
-    position: absolute;
-    top: 10px;
-    padding: 7px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-weight: 300;
-  }
-
-  .resources .section1 .col1 .grid2 p{
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    background-color: #d0b6fa;
-    position: absolute;
-    top: 65px;
-    padding: 7px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-weight: 300;
-  }
-
-  .resources .section1 .col1 .grid3 p{
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    background-color: #d0b6fa;
-    position: absolute;
-    top: 65px;
-    padding: 7px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-weight: 300;
-  }
-
-  /* .resources .section1 .col1 .grid1 button{
-    width: 50%;
+ 
+}
+@media only screen and (max-width: 700px){
+  .resources .section1 .col1 .grid1 button{
+    width: 165px;
     padding: 10px;
-    background-color: #9933CC;
-    color: white;
+    background-color: #d0b6fa;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
   }
-
 
   .resources .section1 .col1 .grid2 button{
-    width: 50%;
+    width: 165px;
     padding: 10px;
-    background-color: #9933CC;
-    color: white;
+    background-color: #d0b6fa;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
   }
 
+
   .resources .section1 .col1 .grid3 button{
-    width: 50%;
+    width: 165px;
     padding: 10px;
-    background-color: #9933CC;
-    color: white;
+    background-color: #d0b6fa;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 12px;
-    position: relative;
-    top: 20px;
-  } */
+  }
+
+}
+
+@media only screen and (max-width: 650px){
+  .resources .section1 .col1 .grid1 button{
+    width: 155px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .resources .section1 .col1 .grid2 button{
+    width: 155px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+  .resources .section1 .col1 .grid3 button{
+    width: 155px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 
 }
 
 
 @media only screen and (max-width: 600px){
-
-  .resources .section1 .col1{
-    width: 90%;
-    height: 50vh;
-    /* flex-wrap: wrap; */
-    /* display: block; */
-    /* background-color: #333; */
+  .resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230vh;
   }
+
+  .resources .section0{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+    left: 0px;
+  }
+
+
+
+  .resources .section1 {
+    width: 90%;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    /* top: 40px; */
+    /* left: 0px; */
+    /* right: 0px; */
+
+}
+
+.resources .section1 .col1{
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0px;
+  gap: 40px;
+  padding: 0px;
+}
+
+
+
+  /* .resources .section1 .col1{
+    width: 90%;
+    height: 55vh;
+  } */
   
   .resources .section1 .col1 .Img-1{
     width: 100%;
-    height: 25vh;
+    height: 50vh;
 
   }
 
   .resources .section1 .col1 .grid1{
-    width: 35%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .resources .section1 .col1 .grid1 button{
+    width: 240px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
   .resources .section1 .col1 .grid2{
-    width: 35%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .resources .section1 .col1 .grid2 button{
+    width: 240px;
+    padding: 10px;
+    background-color: #d0b6fa;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
   .resources .section1 .col1 .grid3{
-    width: 35%;
-  }
-
-  .resources .section1 .col1 .grid2 p{
-    position: absolute;
-    top: 63px;
-  }
-
-  .resources .section1 .col1 .grid3 p{
-    position: absolute;
-    top: 63px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
 
-
-  /* .resources .section1 .col1 .grid1 button{
-    width: 60%;
-    font-size: 11px;
+  .resources .section1 .col1 .grid3 button{
+    width: 240px;
     padding: 10px;
     background-color: #d0b6fa;
-    color: black;
-    position: relative;
-    top: 20px;
-    left: 30px;
-    right: opx;
-  } */
-
-
-  /* .resources .section1 .col1 .grid2 button{
-    width: 60%;
-    font-size: 11px;
-    padding: 10px;
-    background-color: #d0b6fa;
-    color: black;
-    position: relative;
-    top: 20px;
-    left: 30px;
-    right: opx;
-  } */
-
-
-  /* .resources .section1 .col1 .grid3 button{
-    width: 60%;
-    font-size: 11px;
-    padding: 10px;
-    background-color: #d0b6fa;
-    color: black;
-    position: relative;
-    top: 20px;
-    left: 30px;
-    right: opx;
-  } */
-
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
   
 
 }
@@ -594,7 +914,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 230vh;
+    height: 190vh;
   }
 
   .resources .section0{
@@ -605,23 +925,22 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: -40px;
+    top: 30px;
     left: 0px;
   }
 
 
   .resources .section1 {
-    width: 75%;
-    height: 220vh;
+    width: 80%;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
     position: relative;
     /* left: 0px; */
     /* right: 0px; */
-
 }
 
 .resources .section1 .col1{
@@ -632,9 +951,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -30px;
+  top: -60px;
   gap: 20px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .resources .section1 .col1 .grid1{
@@ -642,26 +961,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
+  
 }
 
 
 .resources .section1 .col1 .grid1 p{
   font-size: 15px;
-  color: rgb(218, 209, 209);
+  color: rgb(8, 1, 1);
   text-align: center;
   background-color: #d0b6fa;
   position: absolute;
-  top: 20px;
-  left: 0px;
+  top: 100px;
+  left: 15px;
   padding: 7px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-weight: bold;
 }
 
+/* .resources .section1 .col1 .grid1 .btns{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: 10px;
+  background-color: #b20000;
+} */
+
 .resources .section1 .col1 .grid1 button{
-  width: 250%;
+  width: 200px;
   padding: 10px;
   background-color: #d0b6fa;
   color: white;
@@ -672,8 +1006,8 @@
   font-size: 12px;
   text-align: center;
   position: relative;
-  top: 20px;
-  right: 50px;
+  /* top: 20px; */
+  right: 0px;
 }
 
 .resources .section1 .col1 .grid1 button:hover{
@@ -700,9 +1034,9 @@
 
 .resources .section1 .col1 .grid2 p{
   font-size: 15px;
-  color: rgb(218, 209, 209);
+  color: rgb(8, 1, 1);
   text-align: center;
-  background-color: #9933CC;
+  background-color: #d0b6fa;
   position: absolute;
   top: 300px;
   padding: 7px;
@@ -715,7 +1049,7 @@
 }
 
 .resources .section1 .col1 .grid2 button{
-  width: 200%;
+  width: 200px;
   padding: 10px;
   background-color: #d0b6fa;
   color: white;
@@ -725,8 +1059,8 @@
   font-weight: bold;
   font-size: 12px;
   position: relative;
-  top: 20px;
-  right: 50px;
+  top: 0px;
+  right: 0px;
 }
 
 .resources .section1 .col1 .grid2 button:hover{
@@ -750,11 +1084,11 @@
 
 .resources .section1 .col1 .grid3 p{
   font-size: 15px;
-  color: rgb(218, 209, 209);
+  color: rgb(8, 1, 1);
   text-align: center;
-  background-color: #9933CC;
+  background-color: #d0b6fa;
   position: absolute;
-  top: 300px;
+  top: 0px;
   padding: 7px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -765,7 +1099,7 @@
 }
 
 .resources .section1 .col1 .grid3 button{
-  width: 200%;
+  width: 200px;
   padding: 10px;
   background-color: #d0b6fa;
   color: white;
@@ -775,8 +1109,8 @@
   font-weight: bold;
   font-size: 12px;
   position: relative;
-  top: 20px;
-  right: 50px;
+  top: 0px;
+  right: 0px;
 
 }
 
@@ -790,14 +1124,116 @@
 
 .resources .section1 .col1 .Img-1{
   width: 100%;
-  height: 50vh;
+  height: 35vh;
   border-radius: 10px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 
 }
 
+}
+
+@media only screen and (max-width: 400px){
 
 
+.resources .section1 .col1 .grid1 button{
+  width: 200px;
+  padding: 10px;
+  background-color: #d0b6fa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  /* top: 20px; */
+  right: 0px;
+}
 
+
+.resources .section1 .col1 .grid2 button{
+  width: 200px;
+  padding: 10px;
+  background-color: #d0b6fa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
+
+.resources .section1 .col1 .grid3 button{
+  width: 200px;
+  padding: 10px;
+  background-color: #d0b6fa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  top: 0px;
+  right: 0px;
 
 }
+
+}
+
+@media only screen and (max-width: 375px){
+  .resources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200vh;
+  }
+
+  .resources .section0{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 0px;
+  }
+
+
+  .resources .section1 {
+    width: 80%;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+    /* left: 0px; */
+    /* right: 0px; */
+}
+
+.resources .section1 .col1{
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -60px;
+  gap: 20px;
+  padding: 15px;
+}
+
+}
+

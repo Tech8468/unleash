@@ -57,6 +57,7 @@ function HomePage() {
         initial="hidden"
         whileInView="visible"
         variants={sectionVariants}
+        
       >
         <Profile />
       </motion.div>
