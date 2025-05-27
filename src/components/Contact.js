@@ -10,6 +10,7 @@ function Contact() {
   const [userData, setUserData] = useState({
     fname: "",
     email: "",
+    subject: "",
     message: "",
   });
 
@@ -19,6 +20,7 @@ function Contact() {
     if (
       userData.fname === "" ||
       userData.email === "" ||
+      userData.subject === "" ||
       userData.message === ""
     ) {
       setErr(true);
@@ -26,13 +28,14 @@ function Contact() {
       setErr(false);
 
       emailjs
-        .sendForm('service_k7rwmag', 'template_r5palpt', form.current, emailSecret)
+        .sendForm('service_ppetiab', 'template_70izkmp', form.current, emailSecret)
         .then(
           () => {
             alert("Message sent successfully!");
             setUserData({
               fname: "",
               email: "",
+              subject: "",
               message: "",
             });
           },
@@ -97,6 +100,22 @@ function Contact() {
                   />
                   {err && userData.email === "" ? (
                     <span>Email required</span>
+                  ) : null}
+                </div>
+              </div>
+              <div className="row2">
+                <div className="val1">
+                  <input
+                    type="text"
+                    placeholder="Subject"
+                    name="subject"
+                    value={userData.subject}
+                    onChange={(e) =>
+                      setUserData({ ...userData, subject: e.target.value })
+                    }
+                  />
+                  {err && userData.subject === "" ? (
+                    <span>Subject required</span>
                   ) : null}
                 </div>
               </div>
